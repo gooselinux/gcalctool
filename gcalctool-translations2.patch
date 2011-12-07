@@ -1,0 +1,4102 @@
+diff -urN a/gcalctool-5.28.2/po/de.po b/gcalctool-5.28.2/po/de.po
+--- a/gcalctool-5.28.2/po/de.po	2010-08-05 17:16:33.598139390 +0530
++++ b/gcalctool-5.28.2/po/de.po	2010-08-05 17:20:33.169015792 +0530
+@@ -25,7 +25,7 @@
+ msgstr ""
+ "Project-Id-Version: gcalctool\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2009-08-08 01:23+0200\n"
++"POT-Creation-Date: 2010-07-19 17:42+0530\n"
+ "PO-Revision-Date: 2009-08-08 01:22+0200\n"
+ "Last-Translator: Christian Kirbach <Christian.Kirbach@googlemail.com>\n"
+ "Language-Team: German <gnome-de@gnome.org>\n"
+@@ -644,7 +644,7 @@
+ msgstr "Rück"
+ 
+ #. Hexadecimal digit C button
+-#: ../data/gcalctool.ui.h:136 ../src/gtk.c:1700
++#: ../data/gcalctool.ui.h:136 ../src/gtk.c:1734
+ msgid "C"
+ msgstr "C"
+ 
+@@ -818,7 +818,7 @@
+ msgstr "Exp"
+ 
+ #. Hexadecimal digit F button
+-#: ../data/gcalctool.ui.h:192 ../src/gtk.c:1723
++#: ../data/gcalctool.ui.h:192 ../src/gtk.c:1757
+ msgid "F"
+ msgstr "F"
+ 
+@@ -1478,137 +1478,149 @@
+ msgid "_Calculator"
+ msgstr "_Taschenrechner"
+ 
++#: ../data/gcalctool.ui.h:398
++msgid "_Contents"
++msgstr "I_nhalt"
++
+ #. Base 10 radio button
+-#: ../data/gcalctool.ui.h:399
++#: ../data/gcalctool.ui.h:400
+ msgid "_Dec"
+ msgstr "_Dez"
+ 
+ #. Edit menu
+-#: ../data/gcalctool.ui.h:401
++#: ../data/gcalctool.ui.h:402
+ msgid "_Edit"
+ msgstr "_Bearbeiten"
+ 
+ #. View|Financial menu item
+-#: ../data/gcalctool.ui.h:403
++#: ../data/gcalctool.ui.h:404
+ msgid "_Financial"
+ msgstr "_Finanztechnisch"
+ 
+ #. Fixed-point display radio button
+-#: ../data/gcalctool.ui.h:405
++#: ../data/gcalctool.ui.h:406
+ msgid "_Fix"
+ msgstr "_Fest"
+ 
+ #. Help menu
+-#: ../data/gcalctool.ui.h:407
++#: ../data/gcalctool.ui.h:408
+ msgid "_Help"
+ msgstr "_Hilfe"
+ 
+ #. Insert ASCII dialog: Button to insert selected character
+-#: ../data/gcalctool.ui.h:409
++#: ../data/gcalctool.ui.h:410
+ msgid "_Insert"
+ msgstr "E_infügen"
+ 
+ #. Edit|Insert ASCII value menu item
+-#: ../data/gcalctool.ui.h:411
++#: ../data/gcalctool.ui.h:412
+ msgid "_Insert ASCII value..."
+ msgstr "ASCII-Wert e_infügen …"
+ 
+ #. Inverse check box
+-#: ../data/gcalctool.ui.h:413
++#: ../data/gcalctool.ui.h:414
+ msgid "_Inv"
+ msgstr "_Inv"
+ 
+ #. View|Memory Registers menu item
+-#: ../data/gcalctool.ui.h:415
++#: ../data/gcalctool.ui.h:416
+ msgid "_Memory Registers"
+ msgstr "_Speicherregister"
+ 
+ #. Base 8 radio button
+-#: ../data/gcalctool.ui.h:417
++#: ../data/gcalctool.ui.h:418
+ msgid "_Oct"
+ msgstr "_Okt"
+ 
+ #. View|Programming menu item
+-#: ../data/gcalctool.ui.h:419
++#: ../data/gcalctool.ui.h:420
+ msgid "_Programming"
+ msgstr "_Programmierung"
+ 
+ #. Radian radio button
+-#: ../data/gcalctool.ui.h:421
++#: ../data/gcalctool.ui.h:422
+ msgid "_Radians"
+ msgstr "_Radiant"
+ 
+-#. Scientific display radio button
+ #: ../data/gcalctool.ui.h:423
++msgid "_Redo"
++msgstr "_Wiederholen"
++
++#. Scientific display radio button
++#: ../data/gcalctool.ui.h:425
+ msgid "_Sci"
+ msgstr "_Wis"
+ 
+ #. View|Scientific menu item
+-#: ../data/gcalctool.ui.h:425
++#: ../data/gcalctool.ui.h:427
+ msgid "_Scientific"
+ msgstr "_Wissenschaftlich"
+ 
+ #. Set Precision Dialog: Button to apply settings
+-#: ../data/gcalctool.ui.h:427
++#: ../data/gcalctool.ui.h:429
+ msgid "_Set"
+ msgstr "_Setzen"
+ 
++#: ../data/gcalctool.ui.h:430
++msgid "_Undo"
++msgstr "_Rückgängig"
++
+ #. View menu
+-#: ../data/gcalctool.ui.h:429
++#: ../data/gcalctool.ui.h:432
+ msgid "_View"
+ msgstr "_Ansicht"
+ 
+ #. This is accessible name for memory register 0.  It is spoken by screen readers such as Orca, to help people who are blind or have low vision.
+-#: ../data/gcalctool.ui.h:431
++#: ../data/gcalctool.ui.h:434
+ msgid "register 0"
+ msgstr "Speicherregister 0"
+ 
+ #. This is accessible name for memory register 1.  It is spoken by screen readers such as Orca, to help people who are blind or have low vision.
+-#: ../data/gcalctool.ui.h:433
++#: ../data/gcalctool.ui.h:436
+ msgid "register 1"
+ msgstr "Speicherregister 1"
+ 
+ #. This is accessible name for memory register 2.  It is spoken by screen readers such as Orca, to help people who are blind or have low vision.
+-#: ../data/gcalctool.ui.h:435
++#: ../data/gcalctool.ui.h:438
+ msgid "register 2"
+ msgstr "Speicherregister 2"
+ 
+ #. This is accessible name for memory register 3.  It is spoken by screen readers such as Orca, to help people who are blind or have low vision.
+-#: ../data/gcalctool.ui.h:437
++#: ../data/gcalctool.ui.h:440
+ msgid "register 3"
+ msgstr "Speicherregister 3"
+ 
+ #. This is accessible name for memory register 4.  It is spoken by screen readers such as Orca, to help people who are blind or have low vision.
+-#: ../data/gcalctool.ui.h:439
++#: ../data/gcalctool.ui.h:442
+ msgid "register 4"
+ msgstr "Speicherregister 4"
+ 
+ #. This is accessible name for memory register 5.  It is spoken by screen readers such as Orca, to help people who are blind or have low vision.
+-#: ../data/gcalctool.ui.h:441
++#: ../data/gcalctool.ui.h:444
+ msgid "register 5"
+ msgstr "Speicherregister 5"
+ 
+ #. This is accessible name for memory register 6.  It is spoken by screen readers such as Orca, to help people who are blind or have low vision.
+-#: ../data/gcalctool.ui.h:443
++#: ../data/gcalctool.ui.h:446
+ msgid "register 6"
+ msgstr "Speicherregister 6"
+ 
+ #. This is accessible name for memory register 7.  It is spoken by screen readers such as Orca, to help people who are blind or have low vision.
+-#: ../data/gcalctool.ui.h:445
++#: ../data/gcalctool.ui.h:448
+ msgid "register 7"
+ msgstr "Speicherregister 7"
+ 
+ #. This is accessible name for memory register 8.  It is spoken by screen readers such as Orca, to help people who are blind or have low vision.
+-#: ../data/gcalctool.ui.h:447
++#: ../data/gcalctool.ui.h:450
+ msgid "register 8"
+ msgstr "Speicherregister 8"
+ 
+ #. This is accessible name for memory register 9.  It is spoken by screen readers such as Orca, to help people who are blind or have low vision.
+-#: ../data/gcalctool.ui.h:449
++#: ../data/gcalctool.ui.h:452
+ msgid "register 9"
+ msgstr "Speicherregister 9"
+ 
+-#: ../data/gcalctool.ui.h:450
++#: ../data/gcalctool.ui.h:453
+ msgid "x2"
+ msgstr "x2"
+ 
+@@ -1736,14 +1748,7 @@
+ msgid "Word size"
+ msgstr "Wortlänge"
+ 
+-#. Translators: Error displayed to user when the math library reports an
+-#. * error
+-#: ../src/calctool.c:65
+-#, c-format
+-msgid "Error in math library function %s"
+-msgstr "Fehler in der mathematischen Bibliotheksfunktion »%s«"
+-
+-#: ../src/calctool.c:107
++#: ../src/calctool.c:82
+ #, c-format
+ msgid ""
+ "Usage:\n"
+@@ -1752,7 +1757,7 @@
+ "Aufruf:\n"
+ "  %s - Mathematische Berechnungen ausführen"
+ 
+-#: ../src/calctool.c:115
++#: ../src/calctool.c:90
+ #, c-format
+ msgid ""
+ "Help Options:\n"
+@@ -1767,7 +1772,7 @@
+ "  --help-all                      Alle Hilfeoptionen anzeigen\n"
+ "  --help-gtk                      GTK+ Optionen anzeigen"
+ 
+-#: ../src/calctool.c:126
++#: ../src/calctool.c:101
+ #, c-format
+ msgid ""
+ "GTK+ Options:\n"
+@@ -1790,7 +1795,7 @@
+ "  --gtk-module=MODULE            Zusätzliche GTK+ Module laden\n"
+ "  --g-fatal-warnings              All Warnungen werden zu fatalen"
+ 
+-#: ../src/calctool.c:139
++#: ../src/calctool.c:114
+ #, c-format
+ msgid ""
+ "Application Options:\n"
+@@ -1802,96 +1807,92 @@
+ "  -s, --solve <Gleichung>          Die gegebene Gleichung lösen"
+ 
+ #. Translators: Error printed to stderr when user uses --solve argument without an equation
+-#: ../src/calctool.c:175
++#: ../src/calctool.c:150
+ #, c-format
+ msgid "Argument --solve requires an equation to solve"
+ msgstr "Das Argument »--solve« erfordert eine zu lösende Gleichung"
+ 
+ #. Translators: Error printed to stderr when user provides an unknown command-line argument
+-#: ../src/calctool.c:188
++#: ../src/calctool.c:163
+ #, c-format
+ msgid "Unknown argument '%s'"
+ msgstr "Unbekanntes Argument »%s«"
+ 
+ #. Translators: A log message displayed when an invalid accuracy
+ #. is read from the configuration
+-#: ../src/calctool.c:219
++#: ../src/calctool.c:191
+ #, c-format
+ msgid "%s: accuracy should be in the range 0-%d\n"
+ msgstr "%s: Die Genauigkeit muss im Bereich von 0 bis %d liegen\n"
+ 
+-#: ../src/display.c:417
++#: ../src/display.c:416
+ msgid "No undo history"
+ msgstr "Keine Rückgängig-Chronik"
+ 
+-#: ../src/display.c:432
++#: ../src/display.c:431
+ msgid "No redo steps"
+ msgstr "Keine Rückgängig-Schritte"
+ 
+ #. Translators: This message is displayed in the status bar when an
+ #. invalid user-defined function is executed
+-#: ../src/functions.c:188
++#: ../src/functions.c:237
+ msgid "Malformed function"
+ msgstr "Fehlerhafte Funktion"
+ 
+ #. Translators: This message is displayed in the status bar when a bit
+ #. shift operation is performed and the display does not contain a number
+-#: ../src/functions.c:275
++#: ../src/functions.c:324
+ msgid "No sane value to do bitwise shift"
+ msgstr "Kein vernünftiger Wert zum bitweisen Verschieben"
+ 
+-#: ../src/functions.c:296 ../src/functions.c:351
++#: ../src/functions.c:343 ../src/functions.c:396
+ msgid "No sane value to convert"
+ msgstr "Kein vernünftiger Wert zum Umrechnen"
+ 
+-#: ../src/functions.c:319 ../src/functions.c:371
++#: ../src/functions.c:366 ../src/functions.c:416
+ msgid "No sane value to store"
+ msgstr "Kein vernünftiger Wert zum Speichern"
+ 
+-#: ../src/functions.c:536
++#: ../src/functions.c:581
+ msgid "Invalid number for the current base"
+ msgstr "Ungültige Zahl für aktuelle Basis"
+ 
+-#: ../src/functions.c:540
+-msgid "Too long number"
+-msgstr "Zahl zu lang"
+-
+ #. Translators: Error displayed to user when they
+ #. * perform an invalid bitwise operation, e.g.
+ #. * 1 XOR -1
+-#: ../src/functions.c:547
++#: ../src/functions.c:588
+ msgid "Invalid bitwise operation"
+ msgstr "Ungültige bitweise Operation"
+ 
+ #. Translators: Error displayed to user when they
+ #. * perform an invalid modulus operation, e.g.
+ #. * 6 MOD 1.2
+-#: ../src/functions.c:554
++#: ../src/functions.c:595
+ msgid "Invalid modulus operation"
+ msgstr "Ungültige Modulo-Operation"
+ 
+ #. Translators; Error displayd to user when they
+ #. * perform a bitwise operation on numbers greater
+ #. * than the current word
+-#: ../src/functions.c:561
++#: ../src/functions.c:602
+ msgid "Overflow. Try a bigger word size"
+ msgstr "Überlauf. Versuchen Sie eine höhere Wortlänge zu verwenden"
+ 
+ #. Translators; Error displayd to user when they
+ #. * an unknown variable is entered
+-#: ../src/functions.c:567
++#: ../src/functions.c:608
+ msgid "Unknown variable"
+ msgstr "Unbekannte Variable"
+ 
+ #. Translators; Error displayd to user when they
+ #. * an unknown function is entered
+-#: ../src/functions.c:573
++#: ../src/functions.c:614
+ msgid "Unknown function"
+ msgstr "Unbekannte Funktion"
+ 
+ #. Translators: Error displayed to user when they
+ #. * enter an invalid calculation
+-#: ../src/functions.c:583
++#: ../src/functions.c:624
+ msgid "Malformed expression"
+ msgstr "Fehlerhafter Ausdruck"
+ 
+@@ -1946,12 +1947,12 @@
+ msgstr "Taschenrechner [%s] - Programmierung"
+ 
+ #. Translators: Title of the error dialog when unable to load the UI files
+-#: ../src/gtk.c:572
++#: ../src/gtk.c:574
+ msgid "Error loading user interface"
+ msgstr "Fehler beim Laden der Benutzeroberfläche"
+ 
+ #. Translators: Description in UI error dialog when unable to load the UI files. %s is replaced with the error message provided by GTK+
+-#: ../src/gtk.c:575
++#: ../src/gtk.c:577
+ #, c-format
+ msgid ""
+ "A required file is missing or damaged, please check your installation.\n"
+@@ -1964,13 +1965,13 @@
+ "%s"
+ 
+ #. Translators: Accuracy Popup: Menu item to show the accuracy dialog. %d is replaced with the current accuracy.
+-#: ../src/gtk.c:672
++#: ../src/gtk.c:674
+ #, c-format
+ msgid "_Other (%d) ..."
+ msgstr "_Andere (%d) …"
+ 
+ #. Translators: Tooltip for accuracy button
+-#: ../src/gtk.c:678
++#: ../src/gtk.c:680
+ #, c-format
+ msgid "Set accuracy from 0 to %d numeric place. [A]"
+ msgid_plural "Set accuracy from 0 to %d numeric places. [A]"
+@@ -1978,207 +1979,207 @@
+ msgstr[1] "Die Genauigkeit auf 0 bis %d numerische Stellen setzen. [A]"
+ 
+ #. Translators: The sine button
+-#: ../src/gtk.c:703
++#: ../src/gtk.c:705
+ msgid "sin"
+ msgstr "Sin"
+ 
+ #. Translators: The inverse sine button
+-#: ../src/gtk.c:705
++#: ../src/gtk.c:707
+ msgid "sin<sup>−1</sup>"
+ msgstr "Sin<sup>-1</sup>"
+ 
+ #. Translators: The hyperbolic sine button
+-#: ../src/gtk.c:707
++#: ../src/gtk.c:709
+ msgid "sinh"
+ msgstr "Sinh"
+ 
+ #. Translators: The inverse hyperbolic sine button
+-#: ../src/gtk.c:709
++#: ../src/gtk.c:711
+ msgid "sinh<sup>−1</sup>"
+ msgstr "Sinh<sup>-1</sup>"
+ 
+ #. Translators: The sine tooltip
+-#: ../src/gtk.c:712
++#: ../src/gtk.c:714
+ msgid "Sine [k]"
+ msgstr "Sinus [k]"
+ 
+ #. Translators: The inverse sine tooltip
+-#: ../src/gtk.c:714
++#: ../src/gtk.c:716
+ msgid "Inverse Sine [K]"
+ msgstr "Arcussinus [K]"
+ 
+ #. Translators: The hyperbolic sine tooltip
+-#: ../src/gtk.c:716
++#: ../src/gtk.c:718
+ msgid "Hyperbolic Sine [k]"
+ msgstr "Hyperbolischer Sinus [k]"
+ 
+ #. Translators: The hyperbolic inverse sine tooltip
+-#: ../src/gtk.c:718
++#: ../src/gtk.c:720
+ msgid "Hyperbolic Inverse Sine [K]"
+ msgstr "Hyperbolischer Arcussinus [K]"
+ 
+ #. Translators: The cosine button
+-#: ../src/gtk.c:722
++#: ../src/gtk.c:724
+ msgid "cos"
+ msgstr "Cos"
+ 
+ #. Translators: The inverse cosine button
+-#: ../src/gtk.c:724
++#: ../src/gtk.c:726
+ msgid "cos<sup>−1</sup>"
+ msgstr "Cos<sup>-1</sup>"
+ 
+ #. Translators: The hyperbolic cosine button
+-#: ../src/gtk.c:726
++#: ../src/gtk.c:728
+ msgid "cosh"
+ msgstr "Cosh"
+ 
+ #. Translators: The inverse hyperbolic cosine button
+-#: ../src/gtk.c:728
++#: ../src/gtk.c:730
+ msgid "cosh<sup>−1</sup>"
+ msgstr "Cosh<sup>-1</sup>"
+ 
+ #. Translators: The cosine tooltip
+-#: ../src/gtk.c:731
++#: ../src/gtk.c:733
+ msgid "Cosine [j]"
+ msgstr "Cosinus [j]"
+ 
+ #. Translators: The inverse cosine tooltip
+-#: ../src/gtk.c:733
++#: ../src/gtk.c:735
+ msgid "Inverse Cosine [J]"
+ msgstr "Arcuscosinus [J]"
+ 
+ #. Translators: The hyperbolic cosine tooltip
+-#: ../src/gtk.c:735
++#: ../src/gtk.c:737
+ msgid "Hyperbolic Cosine [j]"
+ msgstr "Hyperbolischer Cosinus [j]"
+ 
+ #. Translators: The hyperbolic inverse cosine tooltip
+-#: ../src/gtk.c:737
++#: ../src/gtk.c:739
+ msgid "Hyperbolic Inverse Cosine [J]"
+ msgstr "Hyperbolischer Arcuscosinus [J]"
+ 
+ #. Translators: The tangent button
+-#: ../src/gtk.c:741
++#: ../src/gtk.c:743
+ msgid "tan"
+ msgstr "Tan"
+ 
+ #. Translators: The inverse tangent button
+-#: ../src/gtk.c:743
++#: ../src/gtk.c:745
+ msgid "tan<sup>−1</sup>"
+ msgstr "Tan<sup>-1</sup>"
+ 
+ #. Translators: The hyperbolic tangent button
+-#: ../src/gtk.c:745
++#: ../src/gtk.c:747
+ msgid "tanh"
+ msgstr "Tanh"
+ 
+ #. Translators: The inverse hyperbolic tangent button
+-#: ../src/gtk.c:747
++#: ../src/gtk.c:749
+ msgid "tanh<sup>−1</sup>"
+ msgstr "Tanh<sup>-1</sup>"
+ 
+ #. Translators: The tangent tooltip
+-#: ../src/gtk.c:750
++#: ../src/gtk.c:752
+ msgid "Tangent [w]"
+ msgstr "Tangens [w]"
+ 
+ #. Translators: The inverse tangent tooltip
+-#: ../src/gtk.c:752
++#: ../src/gtk.c:754
+ msgid "Inverse Tangent [W]"
+ msgstr "Arcustangens [W]"
+ 
+ #. Translators: The hyperbolic tangent tooltip
+-#: ../src/gtk.c:754
++#: ../src/gtk.c:756
+ msgid "Hyperbolic Tangent [w]"
+ msgstr "Hyperbolischer Tangens [w]"
+ 
+ #. Translators: The hyperbolic inverse tangent tooltip
+-#: ../src/gtk.c:756
++#: ../src/gtk.c:758
+ msgid "Hyperbolic Inverse Tangent [W]"
+ msgstr "Hyperbolischer Arcustangens [W]"
+ 
+ #. Translators: The natural logaritm button
+-#: ../src/gtk.c:761
++#: ../src/gtk.c:763
+ msgid "ln"
+ msgstr "ln"
+ 
+ #. Translators: The e to the power of x button
+-#: ../src/gtk.c:763
++#: ../src/gtk.c:765
+ msgid "e<sup><i>x</i></sup>"
+ msgstr "e<sup><i>x</i></sup>"
+ 
+ #. Translators: Tooltip for the natural log button
+-#: ../src/gtk.c:766
++#: ../src/gtk.c:768
+ msgid "Natural logarithm [n]"
+ msgstr "Natürlicher Logarithmus [n]"
+ 
+ #. Translators: Tooltip for the e to the power of x button
+-#: ../src/gtk.c:768
++#: ../src/gtk.c:770
+ msgid "e to the power of the displayed value [N]"
+ msgstr "e hoch dem angezeigten Wert nehmen [N]"
+ 
+ #. Translators: The 10-based logaritm button
+-#: ../src/gtk.c:773
++#: ../src/gtk.c:775
+ msgid "log"
+ msgstr "Log"
+ 
+ #. Translators: The 10 to the power of x button
+-#: ../src/gtk.c:775
++#: ../src/gtk.c:777
+ msgid "10<sup><i>x</i></sup>"
+ msgstr "10<sup><i>x</i></sup>"
+ 
+ #. Translators: Tooltip for the log base 10 button
+-#: ../src/gtk.c:778
++#: ../src/gtk.c:780
+ msgid "Base 10 logarithm [g]"
+ msgstr "Logarithmus zur Basis 10 [g]"
+ 
+ #. Translators: Tooltip for the 10 to the power of x button
+-#: ../src/gtk.c:780
++#: ../src/gtk.c:782
+ msgid "10 to the power of displayed value [G]"
+ msgstr "10 hoch dem angezeigten Wert [G]"
+ 
+ #. Translators: The 2-based logaritm button
+-#: ../src/gtk.c:785
++#: ../src/gtk.c:787
+ msgid "log<sub>2</sub>"
+ msgstr "Log<sub>2</sub>"
+ 
+ #. Translators: The 2 to the power of x button
+-#: ../src/gtk.c:787
++#: ../src/gtk.c:789
+ msgid "2<sup><i>x</i></sup>"
+ msgstr "2<sup><i>x</i></sup>"
+ 
+ #. Translators: Tooltip for the log base 2 button
+-#: ../src/gtk.c:790
++#: ../src/gtk.c:792
+ msgid "Base 2 logarithm [h]"
+ msgstr "Logarithmus zur Basis 2 [h]"
+ 
+ #. Translators: Tooltip for the 2 to the power of x button
+-#: ../src/gtk.c:792
++#: ../src/gtk.c:794
+ msgid "2 to the power of the displayed value [H]"
+ msgstr "2 hoch dem angezeigten Wert [H]"
+ 
+ #. Translators: The x to the power of y button
+-#: ../src/gtk.c:797
++#: ../src/gtk.c:799
+ msgid "x<sup><i>y</i></sup>"
+ msgstr "x<sup><i>y</i></sup>"
+ 
+ #. Translators: The x to the power of reciprocal y button
+-#: ../src/gtk.c:799
++#: ../src/gtk.c:801
+ msgid "x<sup>1/<i>y</i></sup>"
+ msgstr "x<sup>1/<i>y</i></sup>"
+ 
+ #. Translators: Tooltip for the x to the power of y button
+-#: ../src/gtk.c:802
++#: ../src/gtk.c:804
+ msgid "Raise displayed value to the power of y [o]"
+ msgstr "Den angezeigten Wert hoch y nehmen [o]"
+ 
+ #. Translators: Tooltip for the x to the power of reciprocal y button
+-#: ../src/gtk.c:804
++#: ../src/gtk.c:806
+ msgid "Raise displayed value to the power of reciprocal y [O]"
+ msgstr "Den angezeigten Wert hoch reziprokem y nehmen [O]"
+ 
+ #. Translators: The translator credits. Please translate this with your name(s).
+-#: ../src/gtk.c:1365
++#: ../src/gtk.c:1395
+ msgid "translator-credits"
+ msgstr ""
+ "Christian Neumair <chris@gnome-de.org>\n"
+@@ -2186,7 +2187,7 @@
+ "Andre Klapper <ak-47@gmx.net>\n"
+ "Christian Kirbach <Christian.Kirbach@googlemail.com>"
+ 
+-#: ../src/gtk.c:1369
++#: ../src/gtk.c:1399
+ msgid ""
+ "Gcalctool is free software; you can redistribute it and/or modify\n"
+ "it under the terms of the GNU General Public License as published by\n"
+@@ -2217,60 +2218,60 @@
+ "Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110, USA."
+ 
+ #. Translators: Program name in the about dialog
+-#: ../src/gtk.c:1385
++#: ../src/gtk.c:1415
+ msgid "Gcalctool"
+ msgstr "Gcalctool"
+ 
+ #. Translators: Copyright notice in the about dialog
+-#: ../src/gtk.c:1388
++#: ../src/gtk.c:1418
+ msgid "© 1986-2008 The Gcalctool authors"
+ msgstr "© 1986-2008 Die Gcalctool-Autoren"
+ 
+ #. Translators: Short description in the about dialog
+-#: ../src/gtk.c:1391
++#: ../src/gtk.c:1421
+ msgid "Calculator with financial and scientific modes."
+ msgstr "Ein Taschenrechner mit finanztechnischem und wissenschaftlichem Modus."
+ 
+-#: ../src/gtk.c:1549
++#: ../src/gtk.c:1579
+ msgid "Unable to open help file"
+ msgstr "Die Hilfedatei konnte nicht geöffnet werden"
+ 
+ #. Translators: R is the short form of register used inter alia in popup menus
+-#: ../src/gtk.c:1956
++#: ../src/gtk.c:1990
+ msgid "R"
+ msgstr "R"
+ 
+ #. FIXME: WTF?
+-#: ../src/gtk.c:2319
++#: ../src/gtk.c:2371
+ msgid "Paste"
+ msgstr "Einfügen"
+ 
+ #. Translators: Edit Constants Dialog: Constant number column title
+ #. Translators: Edit Functions Dialog: Function number column title
+-#: ../src/gtk.c:2679 ../src/gtk.c:2696
++#: ../src/gtk.c:2739 ../src/gtk.c:2756
+ msgid "No."
+ msgstr "Nr."
+ 
+ #. Translators: Edit Constants Dialog: Constant value column title
+ #. Translators: Edit Functions Dialog: Function value column title
+-#: ../src/gtk.c:2681 ../src/gtk.c:2699
++#: ../src/gtk.c:2741 ../src/gtk.c:2759
+ msgid "Value"
+ msgstr "Wert"
+ 
+ #. Translators: Edit Constants Dialog: Constant description column title
+ #. Translators: Edit Functions Dialog: Function description column title
+-#: ../src/gtk.c:2683 ../src/gtk.c:2702
++#: ../src/gtk.c:2743 ../src/gtk.c:2762
+ msgid "Description"
+ msgstr "Beschreibung"
+ 
+ #. Set default accuracy menu item
+ #. Translators: Accuracy Popup: Menu item to reset the accuracy to the default value. %d is replaced with the default value.
+-#: ../src/gtk.c:2826
++#: ../src/gtk.c:2886
+ #, c-format
+ msgid "Reset to _Default (%d)"
+ msgstr "Auf Vorgabe _zurücksetzen (%d)"
+ 
+-#: ../src/mp.c:1451
++#: ../src/mp.c:1469
+ msgid "Negative X and non-integer Y not supported"
+ msgstr "Negative X und nicht ganzzahlige Y sind nicht unterstützt"
+ 
+@@ -2329,6 +2330,12 @@
+ msgid "Cubic-centimeter-to-cubic-inch conversion factor"
+ msgstr "Umrechnungsfaktor Kubikzentimeter in Kubikzoll"
+ 
++#~ msgid "Error in math library function %s"
++#~ msgstr "Fehler in der mathematischen Bibliotheksfunktion »%s«"
++
++#~ msgid "Too long number"
++#~ msgstr "Zahl zu lang"
++
+ #~ msgid ""
+ #~ "The initial numeric base. Valid values are \"BIN\" (binary), \"OCT"
+ #~ "\" (octal), \"DEC\" (decimal) and \"HEX\" (hexadecimal)"
+@@ -2361,15 +2368,6 @@
+ #~ "Der vorzeichenlose, ganzzahlige Wert der Länge 32 Bit des angezeigten "
+ #~ "Werts ([)"
+ 
+-#~ msgid "_Contents"
+-#~ msgstr "I_nhalt"
+-
+-#~ msgid "_Redo"
+-#~ msgstr "_Wiederholen"
+-
+-#~ msgid "_Undo"
+-#~ msgstr "_Rückgängig"
+-
+ #~ msgid "±"
+ #~ msgstr "±"
+ 
+diff -urN a/gcalctool-5.28.2/po/es.po b/gcalctool-5.28.2/po/es.po
+--- a/gcalctool-5.28.2/po/es.po	2010-08-05 17:16:33.592135037 +0530
++++ b/gcalctool-5.28.2/po/es.po	2010-08-05 17:20:36.604143024 +0530
+@@ -9,9 +9,8 @@
+ msgid ""
+ msgstr ""
+ "Project-Id-Version: gcalctool.HEAD\n"
+-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+-"product=gcalctool&component=general\n"
+-"POT-Creation-Date: 2009-08-06 09:31+0000\n"
++"Report-Msgid-Bugs-To: \n"
++"POT-Creation-Date: 2010-07-19 17:42+0530\n"
+ "PO-Revision-Date: 2009-08-07 19:04+0200\n"
+ "Last-Translator: Jorge González <jorgegonz@svn.gnome.org>\n"
+ "Language-Team: Español <gnome-es-list@gnome.org>\n"
+@@ -628,7 +627,7 @@
+ msgstr "Rtcs"
+ 
+ #. Hexadecimal digit C button
+-#: ../data/gcalctool.ui.h:136 ../src/gtk.c:1700
++#: ../data/gcalctool.ui.h:136 ../src/gtk.c:1734
+ msgid "C"
+ msgstr "C"
+ 
+@@ -798,7 +797,7 @@
+ msgstr "Exp"
+ 
+ #. Hexadecimal digit F button
+-#: ../data/gcalctool.ui.h:192 ../src/gtk.c:1723
++#: ../data/gcalctool.ui.h:192 ../src/gtk.c:1757
+ msgid "F"
+ msgstr "F"
+ 
+@@ -1453,137 +1452,149 @@
+ msgid "_Calculator"
+ msgstr "_Calculadora"
+ 
++#: ../data/gcalctool.ui.h:398
++msgid "_Contents"
++msgstr "Índ_ice"
++
+ #. Base 10 radio button
+-#: ../data/gcalctool.ui.h:399
++#: ../data/gcalctool.ui.h:400
+ msgid "_Dec"
+ msgstr "_Dec"
+ 
+ #. Edit menu
+-#: ../data/gcalctool.ui.h:401
++#: ../data/gcalctool.ui.h:402
+ msgid "_Edit"
+ msgstr "_Editar"
+ 
+ #. View|Financial menu item
+-#: ../data/gcalctool.ui.h:403
++#: ../data/gcalctool.ui.h:404
+ msgid "_Financial"
+ msgstr "_Financiero"
+ 
+ #. Fixed-point display radio button
+-#: ../data/gcalctool.ui.h:405
++#: ../data/gcalctool.ui.h:406
+ msgid "_Fix"
+ msgstr "_Fix"
+ 
+ #. Help menu
+-#: ../data/gcalctool.ui.h:407
++#: ../data/gcalctool.ui.h:408
+ msgid "_Help"
+ msgstr "Ay_uda"
+ 
+ #. Insert ASCII dialog: Button to insert selected character
+-#: ../data/gcalctool.ui.h:409
++#: ../data/gcalctool.ui.h:410
+ msgid "_Insert"
+ msgstr "_Introducir"
+ 
+ #. Edit|Insert ASCII value menu item
+-#: ../data/gcalctool.ui.h:411
++#: ../data/gcalctool.ui.h:412
+ msgid "_Insert ASCII value..."
+ msgstr "_Introduzca un valor ASCII…"
+ 
+ #. Inverse check box
+-#: ../data/gcalctool.ui.h:413
++#: ../data/gcalctool.ui.h:414
+ msgid "_Inv"
+ msgstr "_Inv"
+ 
+ #. View|Memory Registers menu item
+-#: ../data/gcalctool.ui.h:415
++#: ../data/gcalctool.ui.h:416
+ msgid "_Memory Registers"
+ msgstr "Registros de _memoria"
+ 
+ #. Base 8 radio button
+-#: ../data/gcalctool.ui.h:417
++#: ../data/gcalctool.ui.h:418
+ msgid "_Oct"
+ msgstr "_Oct"
+ 
+ #. View|Programming menu item
+-#: ../data/gcalctool.ui.h:419
++#: ../data/gcalctool.ui.h:420
+ msgid "_Programming"
+ msgstr "_Programador"
+ 
+ #. Radian radio button
+-#: ../data/gcalctool.ui.h:421
++#: ../data/gcalctool.ui.h:422
+ msgid "_Radians"
+ msgstr "_Radianes"
+ 
+-#. Scientific display radio button
+ #: ../data/gcalctool.ui.h:423
++msgid "_Redo"
++msgstr "_Rehacer"
++
++#. Scientific display radio button
++#: ../data/gcalctool.ui.h:425
+ msgid "_Sci"
+ msgstr "_Sci"
+ 
+ #. View|Scientific menu item
+-#: ../data/gcalctool.ui.h:425
++#: ../data/gcalctool.ui.h:427
+ msgid "_Scientific"
+ msgstr "_Científico"
+ 
+ #. Set Precision Dialog: Button to apply settings
+-#: ../data/gcalctool.ui.h:427
++#: ../data/gcalctool.ui.h:429
+ msgid "_Set"
+ msgstr "E_stablecer"
+ 
++#: ../data/gcalctool.ui.h:430
++msgid "_Undo"
++msgstr "_Deshacer"
++
+ #. View menu
+-#: ../data/gcalctool.ui.h:429
++#: ../data/gcalctool.ui.h:432
+ msgid "_View"
+ msgstr "_Ver"
+ 
+ #. This is accessible name for memory register 0.  It is spoken by screen readers such as Orca, to help people who are blind or have low vision.
+-#: ../data/gcalctool.ui.h:431
++#: ../data/gcalctool.ui.h:434
+ msgid "register 0"
+ msgstr "registro 0"
+ 
+ #. This is accessible name for memory register 1.  It is spoken by screen readers such as Orca, to help people who are blind or have low vision.
+-#: ../data/gcalctool.ui.h:433
++#: ../data/gcalctool.ui.h:436
+ msgid "register 1"
+ msgstr "registro 1"
+ 
+ #. This is accessible name for memory register 2.  It is spoken by screen readers such as Orca, to help people who are blind or have low vision.
+-#: ../data/gcalctool.ui.h:435
++#: ../data/gcalctool.ui.h:438
+ msgid "register 2"
+ msgstr "registro 2"
+ 
+ #. This is accessible name for memory register 3.  It is spoken by screen readers such as Orca, to help people who are blind or have low vision.
+-#: ../data/gcalctool.ui.h:437
++#: ../data/gcalctool.ui.h:440
+ msgid "register 3"
+ msgstr "registro 3"
+ 
+ #. This is accessible name for memory register 4.  It is spoken by screen readers such as Orca, to help people who are blind or have low vision.
+-#: ../data/gcalctool.ui.h:439
++#: ../data/gcalctool.ui.h:442
+ msgid "register 4"
+ msgstr "registro 4"
+ 
+ #. This is accessible name for memory register 5.  It is spoken by screen readers such as Orca, to help people who are blind or have low vision.
+-#: ../data/gcalctool.ui.h:441
++#: ../data/gcalctool.ui.h:444
+ msgid "register 5"
+ msgstr "registro 5"
+ 
+ #. This is accessible name for memory register 6.  It is spoken by screen readers such as Orca, to help people who are blind or have low vision.
+-#: ../data/gcalctool.ui.h:443
++#: ../data/gcalctool.ui.h:446
+ msgid "register 6"
+ msgstr "registro 6"
+ 
+ #. This is accessible name for memory register 7.  It is spoken by screen readers such as Orca, to help people who are blind or have low vision.
+-#: ../data/gcalctool.ui.h:445
++#: ../data/gcalctool.ui.h:448
+ msgid "register 7"
+ msgstr "registro 7"
+ 
+ #. This is accessible name for memory register 8.  It is spoken by screen readers such as Orca, to help people who are blind or have low vision.
+-#: ../data/gcalctool.ui.h:447
++#: ../data/gcalctool.ui.h:450
+ msgid "register 8"
+ msgstr "registro 8"
+ 
+ #. This is accessible name for memory register 9.  It is spoken by screen readers such as Orca, to help people who are blind or have low vision.
+-#: ../data/gcalctool.ui.h:449
++#: ../data/gcalctool.ui.h:452
+ msgid "register 9"
+ msgstr "registro 9"
+ 
+-#: ../data/gcalctool.ui.h:450
++#: ../data/gcalctool.ui.h:453
+ msgid "x2"
+ msgstr "x2"
+ 
+@@ -1715,14 +1726,7 @@
+ msgid "Word size"
+ msgstr "Tamaño de palabra"
+ 
+-#. Translators: Error displayed to user when the math library reports an
+-#. * error
+-#: ../src/calctool.c:65
+-#, c-format
+-msgid "Error in math library function %s"
+-msgstr "Error en la biblioteca de funciones matemáticas %s"
+-
+-#: ../src/calctool.c:107
++#: ../src/calctool.c:82
+ #, c-format
+ msgid ""
+ "Usage:\n"
+@@ -1731,7 +1735,7 @@
+ "Uso:\n"
+ "  %s - Realizar cálculos matemáticos"
+ 
+-#: ../src/calctool.c:115
++#: ../src/calctool.c:90
+ #, c-format
+ msgid ""
+ "Help Options:\n"
+@@ -1746,7 +1750,7 @@
+ "  -help-all                       Mostrar todas las opciones de ayuda\n"
+ "  -help-gtk                       Mostrar las opciones de GTK+"
+ 
+-#: ../src/calctool.c:126
++#: ../src/calctool.c:101
+ #, c-format
+ msgid ""
+ "GTK+ Options:\n"
+@@ -1770,7 +1774,7 @@
+ "  --gtk-module=MÓDULOS            Cargar módulos GTK+ adicionales\n"
+ "  --g-fatal-warnings              Hacer que todos los avisos sean fatales"
+ 
+-#: ../src/calctool.c:139
++#: ../src/calctool.c:114
+ #, c-format
+ msgid ""
+ "Application Options:\n"
+@@ -1782,96 +1786,92 @@
+ "  -s, --solve <ecuación>          Resolver la ecuación proporcionada"
+ 
+ #. Translators: Error printed to stderr when user uses --solve argument without an equation
+-#: ../src/calctool.c:175
++#: ../src/calctool.c:150
+ #, c-format
+ msgid "Argument --solve requires an equation to solve"
+ msgstr "Parámetro --resolver requiere una ecuación para resolver"
+ 
+ #. Translators: Error printed to stderr when user provides an unknown command-line argument
+-#: ../src/calctool.c:188
++#: ../src/calctool.c:163
+ #, c-format
+ msgid "Unknown argument '%s'"
+ msgstr "Parámetro «%s» desconocido"
+ 
+ #. Translators: A log message displayed when an invalid accuracy
+ #. is read from the configuration
+-#: ../src/calctool.c:219
++#: ../src/calctool.c:191
+ #, c-format
+ msgid "%s: accuracy should be in the range 0-%d\n"
+ msgstr "%s: la precisión debería estar en el rango 0-%d\n"
+ 
+-#: ../src/display.c:417
++#: ../src/display.c:416
+ msgid "No undo history"
+ msgstr "Sin histórico"
+ 
+-#: ../src/display.c:432
++#: ../src/display.c:431
+ msgid "No redo steps"
+ msgstr "Sin pasos para rehacer"
+ 
+ #. Translators: This message is displayed in the status bar when an
+ #. invalid user-defined function is executed
+-#: ../src/functions.c:188
++#: ../src/functions.c:237
+ msgid "Malformed function"
+ msgstr "Función malformada"
+ 
+ #. Translators: This message is displayed in the status bar when a bit
+ #. shift operation is performed and the display does not contain a number
+-#: ../src/functions.c:275
++#: ../src/functions.c:324
+ msgid "No sane value to do bitwise shift"
+ msgstr "No hay un valor bueno para un desplazamiento de bits"
+ 
+-#: ../src/functions.c:296 ../src/functions.c:351
++#: ../src/functions.c:343 ../src/functions.c:396
+ msgid "No sane value to convert"
+ msgstr "No hay un valor bueno para convertir"
+ 
+-#: ../src/functions.c:319 ../src/functions.c:371
++#: ../src/functions.c:366 ../src/functions.c:416
+ msgid "No sane value to store"
+ msgstr "No hay un valor bueno para almacenar"
+ 
+-#: ../src/functions.c:536
++#: ../src/functions.c:581
+ msgid "Invalid number for the current base"
+ msgstr "Número inválido para la base actual"
+ 
+-#: ../src/functions.c:540
+-msgid "Too long number"
+-msgstr "Número demasiado largo"
+-
+ #. Translators: Error displayed to user when they
+ #. * perform an invalid bitwise operation, e.g.
+ #. * 1 XOR -1
+-#: ../src/functions.c:547
++#: ../src/functions.c:588
+ msgid "Invalid bitwise operation"
+ msgstr "Operación bit a bit no válida"
+ 
+ #. Translators: Error displayed to user when they
+ #. * perform an invalid modulus operation, e.g.
+ #. * 6 MOD 1.2
+-#: ../src/functions.c:554
++#: ../src/functions.c:595
+ msgid "Invalid modulus operation"
+ msgstr "Operación de módulo no válida"
+ 
+ #. Translators; Error displayd to user when they
+ #. * perform a bitwise operation on numbers greater
+ #. * than the current word
+-#: ../src/functions.c:561
++#: ../src/functions.c:602
+ msgid "Overflow. Try a bigger word size"
+ msgstr "Desbordamiento de búfer. Inténtelo con un tamaño de palabra mayor."
+ 
+ #. Translators; Error displayd to user when they
+ #. * an unknown variable is entered
+-#: ../src/functions.c:567
++#: ../src/functions.c:608
+ msgid "Unknown variable"
+ msgstr "Variable desconocida"
+ 
+ #. Translators; Error displayd to user when they
+ #. * an unknown function is entered
+-#: ../src/functions.c:573
++#: ../src/functions.c:614
+ msgid "Unknown function"
+ msgstr "Función desconocida"
+ 
+ #. Translators: Error displayed to user when they
+ #. * enter an invalid calculation
+-#: ../src/functions.c:583
++#: ../src/functions.c:624
+ msgid "Malformed expression"
+ msgstr "Expresión malformada"
+ 
+@@ -1926,12 +1926,12 @@
+ msgstr "Calculadora [%s] - Programador"
+ 
+ #. Translators: Title of the error dialog when unable to load the UI files
+-#: ../src/gtk.c:572
++#: ../src/gtk.c:574
+ msgid "Error loading user interface"
+ msgstr "Error al cargar la interfaz de usuario"
+ 
+ #. Translators: Description in UI error dialog when unable to load the UI files. %s is replaced with the error message provided by GTK+
+-#: ../src/gtk.c:575
++#: ../src/gtk.c:577
+ #, c-format
+ msgid ""
+ "A required file is missing or damaged, please check your installation.\n"
+@@ -1943,13 +1943,13 @@
+ "%s"
+ 
+ #. Translators: Accuracy Popup: Menu item to show the accuracy dialog. %d is replaced with the current accuracy.
+-#: ../src/gtk.c:672
++#: ../src/gtk.c:674
+ #, c-format
+ msgid "_Other (%d) ..."
+ msgstr "_Otro (%d) …"
+ 
+ #. Translators: Tooltip for accuracy button
+-#: ../src/gtk.c:678
++#: ../src/gtk.c:680
+ #, c-format
+ msgid "Set accuracy from 0 to %d numeric place. [A]"
+ msgid_plural "Set accuracy from 0 to %d numeric places. [A]"
+@@ -1957,214 +1957,214 @@
+ msgstr[1] "Establecer la precisión de 0 a %d lugares numéricos. [A]"
+ 
+ #. Translators: The sine button
+-#: ../src/gtk.c:703
++#: ../src/gtk.c:705
+ msgid "sin"
+ msgstr "sen"
+ 
+ #. Translators: The inverse sine button
+-#: ../src/gtk.c:705
++#: ../src/gtk.c:707
+ msgid "sin<sup>−1</sup>"
+ msgstr "sen<sup>−1</sup>"
+ 
+ #. Translators: The hyperbolic sine button
+-#: ../src/gtk.c:707
++#: ../src/gtk.c:709
+ msgid "sinh"
+ msgstr "senh"
+ 
+ #. Translators: The inverse hyperbolic sine button
+-#: ../src/gtk.c:709
++#: ../src/gtk.c:711
+ msgid "sinh<sup>−1</sup>"
+ msgstr "senh<sup>-1</sup>"
+ 
+ #. Translators: The sine tooltip
+-#: ../src/gtk.c:712
++#: ../src/gtk.c:714
+ msgid "Sine [k]"
+ msgstr "Seno [k]"
+ 
+ #. Translators: The inverse sine tooltip
+-#: ../src/gtk.c:714
++#: ../src/gtk.c:716
+ msgid "Inverse Sine [K]"
+ msgstr "Seno inverso[K]"
+ 
+ #. Translators: The hyperbolic sine tooltip
+-#: ../src/gtk.c:716
++#: ../src/gtk.c:718
+ msgid "Hyperbolic Sine [k]"
+ msgstr "Seno hiperbólico [k]"
+ 
+ #. Translators: The hyperbolic inverse sine tooltip
+-#: ../src/gtk.c:718
++#: ../src/gtk.c:720
+ msgid "Hyperbolic Inverse Sine [K]"
+ msgstr "Seno hiperbólico inverso [K]"
+ 
+ #. Translators: The cosine button
+-#: ../src/gtk.c:722
++#: ../src/gtk.c:724
+ msgid "cos"
+ msgstr "cos"
+ 
+ #. Translators: The inverse cosine button
+-#: ../src/gtk.c:724
++#: ../src/gtk.c:726
+ msgid "cos<sup>−1</sup>"
+ msgstr "cos<sup>−1</sup>"
+ 
+ #. Translators: The hyperbolic cosine button
+-#: ../src/gtk.c:726
++#: ../src/gtk.c:728
+ msgid "cosh"
+ msgstr "cosh"
+ 
+ #. Translators: The inverse hyperbolic cosine button
+-#: ../src/gtk.c:728
++#: ../src/gtk.c:730
+ msgid "cosh<sup>−1</sup>"
+ msgstr "cosh<sup>−1</sup>"
+ 
+ #. Translators: The cosine tooltip
+-#: ../src/gtk.c:731
++#: ../src/gtk.c:733
+ msgid "Cosine [j]"
+ msgstr "Coseno [j]"
+ 
+ #. Translators: The inverse cosine tooltip
+-#: ../src/gtk.c:733
++#: ../src/gtk.c:735
+ msgid "Inverse Cosine [J]"
+ msgstr "Coseno inverso [J]"
+ 
+ #. Translators: The hyperbolic cosine tooltip
+-#: ../src/gtk.c:735
++#: ../src/gtk.c:737
+ msgid "Hyperbolic Cosine [j]"
+ msgstr "Coseno hiperbólico [j]"
+ 
+ #. Translators: The hyperbolic inverse cosine tooltip
+-#: ../src/gtk.c:737
++#: ../src/gtk.c:739
+ msgid "Hyperbolic Inverse Cosine [J]"
+ msgstr "Coseno hiperbólico inverso [J]"
+ 
+ #. Translators: The tangent button
+-#: ../src/gtk.c:741
++#: ../src/gtk.c:743
+ msgid "tan"
+ msgstr "tan"
+ 
+ #. Translators: The inverse tangent button
+-#: ../src/gtk.c:743
++#: ../src/gtk.c:745
+ msgid "tan<sup>−1</sup>"
+ msgstr "tan<sup>−1</sup>"
+ 
+ #. Translators: The hyperbolic tangent button
+-#: ../src/gtk.c:745
++#: ../src/gtk.c:747
+ msgid "tanh"
+ msgstr "tanh"
+ 
+ #. Translators: The inverse hyperbolic tangent button
+-#: ../src/gtk.c:747
++#: ../src/gtk.c:749
+ msgid "tanh<sup>−1</sup>"
+ msgstr "tanh<sup>−1</sup>"
+ 
+ #. Translators: The tangent tooltip
+-#: ../src/gtk.c:750
++#: ../src/gtk.c:752
+ msgid "Tangent [w]"
+ msgstr "Tangente [w]"
+ 
+ #. Translators: The inverse tangent tooltip
+-#: ../src/gtk.c:752
++#: ../src/gtk.c:754
+ msgid "Inverse Tangent [W]"
+ msgstr "Tangente inversa [W]"
+ 
+ #. Translators: The hyperbolic tangent tooltip
+-#: ../src/gtk.c:754
++#: ../src/gtk.c:756
+ msgid "Hyperbolic Tangent [w]"
+ msgstr "Tangente hiperbólica [w]"
+ 
+ #. Translators: The hyperbolic inverse tangent tooltip
+-#: ../src/gtk.c:756
++#: ../src/gtk.c:758
+ msgid "Hyperbolic Inverse Tangent [W]"
+ msgstr "Tangente hiperbólica inversa [W]"
+ 
+ #. Translators: The natural logaritm button
+-#: ../src/gtk.c:761
++#: ../src/gtk.c:763
+ msgid "ln"
+ msgstr "ln"
+ 
+ #. Translators: The e to the power of x button
+-#: ../src/gtk.c:763
++#: ../src/gtk.c:765
+ msgid "e<sup><i>x</i></sup>"
+ msgstr "e<sup><i>x</i></sup>"
+ 
+ #. Translators: Tooltip for the natural log button
+-#: ../src/gtk.c:766
++#: ../src/gtk.c:768
+ msgid "Natural logarithm [n]"
+ msgstr "Logaritmo natural [n]"
+ 
+ #. Translators: Tooltip for the e to the power of x button
+-#: ../src/gtk.c:768
++#: ../src/gtk.c:770
+ msgid "e to the power of the displayed value [N]"
+ msgstr "e a la potencia del valor mostrado [N]"
+ 
+ #. Translators: The 10-based logaritm button
+-#: ../src/gtk.c:773
++#: ../src/gtk.c:775
+ msgid "log"
+ msgstr "log"
+ 
+ #. Translators: The 10 to the power of x button
+-#: ../src/gtk.c:775
++#: ../src/gtk.c:777
+ msgid "10<sup><i>x</i></sup>"
+ msgstr "10<sup><i>x</i></sup>"
+ 
+ #. Translators: Tooltip for the log base 10 button
+-#: ../src/gtk.c:778
++#: ../src/gtk.c:780
+ msgid "Base 10 logarithm [g]"
+ msgstr "Logaritmo base 10 [g]"
+ 
+ #. Translators: Tooltip for the 10 to the power of x button
+-#: ../src/gtk.c:780
++#: ../src/gtk.c:782
+ msgid "10 to the power of displayed value [G]"
+ msgstr "10 a la potencia del número mostrado [G]"
+ 
+ #. Translators: The 2-based logaritm button
+-#: ../src/gtk.c:785
++#: ../src/gtk.c:787
+ msgid "log<sub>2</sub>"
+ msgstr "log<sub>2</sub>"
+ 
+ #. Translators: The 2 to the power of x button
+-#: ../src/gtk.c:787
++#: ../src/gtk.c:789
+ msgid "2<sup><i>x</i></sup>"
+ msgstr "2<sup><i>x</i></sup>"
+ 
+ #. Translators: Tooltip for the log base 2 button
+-#: ../src/gtk.c:790
++#: ../src/gtk.c:792
+ msgid "Base 2 logarithm [h]"
+ msgstr "Logaritmo base 2 [h]"
+ 
+ #. Translators: Tooltip for the 2 to the power of x button
+-#: ../src/gtk.c:792
++#: ../src/gtk.c:794
+ msgid "2 to the power of the displayed value [H]"
+ msgstr "2 a la potencia del valor mostrado [H]"
+ 
+ #. Translators: The x to the power of y button
+-#: ../src/gtk.c:797
++#: ../src/gtk.c:799
+ msgid "x<sup><i>y</i></sup>"
+ msgstr "x<sup><i>y</i></sup>"
+ 
+ #. Translators: The x to the power of reciprocal y button
+-#: ../src/gtk.c:799
++#: ../src/gtk.c:801
+ msgid "x<sup>1/<i>y</i></sup>"
+ msgstr "x<sup>1/<i>y</i></sup>"
+ 
+ #. Translators: Tooltip for the x to the power of y button
+-#: ../src/gtk.c:802
++#: ../src/gtk.c:804
+ msgid "Raise displayed value to the power of y [o]"
+ msgstr "Elevar el valor mostrado a la potencia de y [o]"
+ 
+ #. Translators: Tooltip for the x to the power of reciprocal y button
+-#: ../src/gtk.c:804
++#: ../src/gtk.c:806
+ msgid "Raise displayed value to the power of reciprocal y [O]"
+ msgstr "Elevar el valor mostrado a la potencia recíproca de y [O]"
+ 
+ #. Translators: The translator credits. Please translate this with your name(s).
+-#: ../src/gtk.c:1365
++#: ../src/gtk.c:1395
+ msgid "translator-credits"
+ msgstr ""
+ "Jorge González <jorgegonz@svn.gnome.org>, 2007-2009\n"
+ "Francisco Javier F. Serrador <serrador@cvs.gnome.org>, 2006\n"
+ "Germán Poo-Caamaño <gpoo@ubiobio.cl>, 2003"
+ 
+-#: ../src/gtk.c:1369
++#: ../src/gtk.c:1399
+ msgid ""
+ "Gcalctool is free software; you can redistribute it and/or modify\n"
+ "it under the terms of the GNU General Public License as published by\n"
+@@ -2197,60 +2197,60 @@
+ "51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, EE. UU."
+ 
+ #. Translators: Program name in the about dialog
+-#: ../src/gtk.c:1385
++#: ../src/gtk.c:1415
+ msgid "Gcalctool"
+ msgstr "Gcalctool"
+ 
+ #. Translators: Copyright notice in the about dialog
+-#: ../src/gtk.c:1388
++#: ../src/gtk.c:1418
+ msgid "© 1986-2008 The Gcalctool authors"
+ msgstr "© 1986-2008 Los autores de Gcalctool"
+ 
+ #. Translators: Short description in the about dialog
+-#: ../src/gtk.c:1391
++#: ../src/gtk.c:1421
+ msgid "Calculator with financial and scientific modes."
+ msgstr "Calculadora con modos científico y financiero."
+ 
+-#: ../src/gtk.c:1549
++#: ../src/gtk.c:1579
+ msgid "Unable to open help file"
+ msgstr "No se pudo abrir el archivo de ayuda"
+ 
+ #. Translators: R is the short form of register used inter alia in popup menus
+-#: ../src/gtk.c:1956
++#: ../src/gtk.c:1990
+ msgid "R"
+ msgstr "R"
+ 
+ #. FIXME: WTF?
+-#: ../src/gtk.c:2319
++#: ../src/gtk.c:2371
+ msgid "Paste"
+ msgstr "Pegar"
+ 
+ #. Translators: Edit Constants Dialog: Constant number column title
+ #. Translators: Edit Functions Dialog: Function number column title
+-#: ../src/gtk.c:2679 ../src/gtk.c:2696
++#: ../src/gtk.c:2739 ../src/gtk.c:2756
+ msgid "No."
+ msgstr "No."
+ 
+ #. Translators: Edit Constants Dialog: Constant value column title
+ #. Translators: Edit Functions Dialog: Function value column title
+-#: ../src/gtk.c:2681 ../src/gtk.c:2699
++#: ../src/gtk.c:2741 ../src/gtk.c:2759
+ msgid "Value"
+ msgstr "Valor"
+ 
+ #. Translators: Edit Constants Dialog: Constant description column title
+ #. Translators: Edit Functions Dialog: Function description column title
+-#: ../src/gtk.c:2683 ../src/gtk.c:2702
++#: ../src/gtk.c:2743 ../src/gtk.c:2762
+ msgid "Description"
+ msgstr "Descripción"
+ 
+ #. Set default accuracy menu item
+ #. Translators: Accuracy Popup: Menu item to reset the accuracy to the default value. %d is replaced with the default value.
+-#: ../src/gtk.c:2826
++#: ../src/gtk.c:2886
+ #, c-format
+ msgid "Reset to _Default (%d)"
+ msgstr "Restablecer a _predeterminada (%d)"
+ 
+-#: ../src/mp.c:1451
++#: ../src/mp.c:1469
+ msgid "Negative X and non-integer Y not supported"
+ msgstr "Un X negativo y un Y no entero no está soportado"
+ 
+@@ -2309,6 +2309,12 @@
+ msgid "Cubic-centimeter-to-cubic-inch conversion factor"
+ msgstr "Factor de conversión de cms cúbicos a pulgadas cúbicas"
+ 
++#~ msgid "Error in math library function %s"
++#~ msgstr "Error en la biblioteca de funciones matemáticas %s"
++
++#~ msgid "Too long number"
++#~ msgstr "Número demasiado largo"
++
+ #~| msgid ""
+ #~| "The initial numeric base. Valid values are BIN (binary) OCT (octal) DEC "
+ #~| "(decimal) HEX (hexadecimal)"
+@@ -2346,15 +2352,6 @@
+ #~ msgid "Error, cannot calculate cosine"
+ #~ msgstr "Error, no se puede calcular el coseno"
+ 
+-#~ msgid "_Contents"
+-#~ msgstr "Índ_ice"
+-
+-#~ msgid "_Redo"
+-#~ msgstr "_Rehacer"
+-
+-#~ msgid "_Undo"
+-#~ msgstr "_Deshacer"
+-
+ #~ msgid "±"
+ #~ msgstr "±"
+ 
+diff -urN a/gcalctool-5.28.2/po/gu.po b/gcalctool-5.28.2/po/gu.po
+--- a/gcalctool-5.28.2/po/gu.po	2010-08-05 17:16:33.588142092 +0530
++++ b/gcalctool-5.28.2/po/gu.po	2010-08-05 17:16:47.188135329 +0530
+@@ -1,13 +1,13 @@
+-# translation of gcalctool.master.gu.po to Gujarati
++# translation of gu.po to Gujarati
+ # Ankit Patel <ankit644@yahoo.com>, 2005, 2006.
+ # Ankit Patel <ankit@redhat.com>, 2007, 2008, 2009.
+-# Sweta Kothari <swkothar@redhat.com>, 2008, 2009.
++# Sweta Kothari <swkothar@redhat.com>, 2008, 2009, 2010.
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: gcalctool.master.gu\n"
+-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gcalctool&component=general\n"
+-"POT-Creation-Date: 2009-08-16 06:22+0000\n"
+-"PO-Revision-Date: 2009-08-31 12:33+0530\n"
++"Project-Id-Version: gu\n"
++"Report-Msgid-Bugs-To: \n"
++"POT-Creation-Date: 2010-07-19 17:42+0530\n"
++"PO-Revision-Date: 2010-07-30 13:40+0530\n"
+ "Last-Translator: Sweta Kothari <swkothar@redhat.com>\n"
+ "Language-Team: Gujarati\n"
+ "MIME-Version: 1.0\n"
+@@ -291,13 +291,10 @@
+ msgstr "("
+ 
+ #: ../data/gcalctool.ui.h:16
+-#| msgid "Ln"
+ msgid "(Ln)"
+ msgstr "(Ln)"
+ 
+ #: ../data/gcalctool.ui.h:17
+-#| msgid "Set accuracy from 0 to %d numeric place. [A]"
+-#| msgid_plural "Set accuracy from 0 to %d numeric places. [A]"
+ msgid "(Set accuracy from 0 to N numeric places [A])"
+ msgstr "(0 થી N દશાંશ સ્થળ સુધી ચોકસાઈ સુયોજીત કરો [A])"
+ 
+@@ -338,12 +335,12 @@
+ #. Numeric 0 button
+ #: ../data/gcalctool.ui.h:29
+ msgid "0"
+-msgstr "૦"
++msgstr "0"
+ 
+ #. Numeric 1 button
+ #: ../data/gcalctool.ui.h:31
+ msgid "1"
+-msgstr "૧"
++msgstr "1"
+ 
+ #. 1's complement
+ #: ../data/gcalctool.ui.h:33
+@@ -366,27 +363,27 @@
+ #. Right Shift Popup: Menu item to shift right by 10 bits
+ #: ../data/gcalctool.ui.h:39
+ msgid "10 places"
+-msgstr "૧૦ જગ્યાઓ"
++msgstr "10 સ્થાનો"
+ 
+ #. Right Shift Popup: Menu item to shift right by 11 bits
+ #: ../data/gcalctool.ui.h:41
+ msgid "11 places"
+-msgstr "૧૧ જગ્યાઓ"
++msgstr "11 સ્થાનો"
+ 
+ #. Right Shift Popup: Menu item to shift right by 12 bits
+ #: ../data/gcalctool.ui.h:43
+ msgid "12 places"
+-msgstr "૧૨ જગ્યાઓ"
++msgstr "12 સ્થાનો"
+ 
+ #. Right Shift Popup: Menu item to shift right by 13 bits
+ #: ../data/gcalctool.ui.h:45
+ msgid "13 places"
+-msgstr "૧૩ જગ્યાઓ"
++msgstr "13 સ્થાનો"
+ 
+ #. Right Shift Popup: Menu item to shift right by 14 bits
+ #: ../data/gcalctool.ui.h:47
+ msgid "14 places"
+-msgstr "૧૪ જગ્યાઓ"
++msgstr "14 સ્થાનો"
+ 
+ #. Label for bit 15 on the bit editor
+ #: ../data/gcalctool.ui.h:49
+@@ -396,7 +393,7 @@
+ #. Right Shift Popup: Menu item to shift right by 15 bits
+ #: ../data/gcalctool.ui.h:51
+ msgid "15 places"
+-msgstr "૧૫ જગ્યાઓ"
++msgstr "15 સ્થાનો"
+ 
+ #. Numeric 2 button
+ #: ../data/gcalctool.ui.h:53
+@@ -630,7 +627,7 @@
+ msgstr "Bksp"
+ 
+ #. Hexadecimal digit C button
+-#: ../data/gcalctool.ui.h:136 ../src/gtk.c:1700
++#: ../data/gcalctool.ui.h:136 ../src/gtk.c:1734
+ msgid "C"
+ msgstr "C"
+ 
+@@ -800,7 +797,7 @@
+ msgstr "Exp"
+ 
+ #. Hexadecimal digit F button
+-#: ../data/gcalctool.ui.h:192 ../src/gtk.c:1723
++#: ../data/gcalctool.ui.h:192 ../src/gtk.c:1757
+ msgid "F"
+ msgstr "F"
+ 
+@@ -869,31 +866,31 @@
+ #. Base 16 radio button
+ #: ../data/gcalctool.ui.h:215
+ msgid "He_x"
+-msgstr "સોળના આધારવાળુ (_x)"
++msgstr "He_x"
+ 
+ #: ../data/gcalctool.ui.h:216
+ msgid "Hexadecimal digit A [a]"
+-msgstr "૧૬ આધારવાળી સંખ્યા A છે [a]"
++msgstr "હેક્ઝાડેસિમલ અંક A [a]"
+ 
+ #: ../data/gcalctool.ui.h:217
+ msgid "Hexadecimal digit B [b]"
+-msgstr "૧૬ આધારવાળી સંખ્યા B છે [b]"
++msgstr "હેક્ઝાડેસિમલ અંક B [b]"
+ 
+ #: ../data/gcalctool.ui.h:218
+ msgid "Hexadecimal digit C [c]"
+-msgstr "૧૬ આધારવાળી સંખ્યા C છે [c]"
++msgstr "હેક્ઝાડેસિમલ અંક C [c]"
+ 
+ #: ../data/gcalctool.ui.h:219
+ msgid "Hexadecimal digit D [d]"
+-msgstr "૧૬ આધારવાળી સંખ્યા D છે [d]"
++msgstr "હેક્ઝાડેસિમલ અંક D [d]"
+ 
+ #: ../data/gcalctool.ui.h:220
+ msgid "Hexadecimal digit E [e]"
+-msgstr "૧૬ આધારવાળી સંખ્યા E છે [e]"
++msgstr "હેક્ઝાડેસિમલ અંક E [e]"
+ 
+ #: ../data/gcalctool.ui.h:221
+ msgid "Hexadecimal digit F [f]"
+-msgstr "૧૬ આધારવાળી સંખ્યા F છે [f]"
++msgstr "હેક્ઝાડેસિમલ અંક F [f]"
+ 
+ #. Title of insert ASCII dialog
+ #: ../data/gcalctool.ui.h:223
+@@ -961,47 +958,47 @@
+ 
+ #: ../data/gcalctool.ui.h:241
+ msgid "Numeric 0"
+-msgstr "આંકડાે ૦"
++msgstr "અંક 0"
+ 
+ #: ../data/gcalctool.ui.h:242
+ msgid "Numeric 1"
+-msgstr "આંકડાે ૧"
++msgstr "અંક 1"
+ 
+ #: ../data/gcalctool.ui.h:243
+ msgid "Numeric 2"
+-msgstr "આંકડાે ૨"
++msgstr "અંક 2"
+ 
+ #: ../data/gcalctool.ui.h:244
+ msgid "Numeric 3"
+-msgstr "આંકડાે ૩"
++msgstr "અંક 3"
+ 
+ #: ../data/gcalctool.ui.h:245
+ msgid "Numeric 4"
+-msgstr "આંકડાે ૪"
++msgstr "અંક 4"
+ 
+ #: ../data/gcalctool.ui.h:246
+ msgid "Numeric 5"
+-msgstr "આંકડાે ૫"
++msgstr "અંક 5"
+ 
+ #: ../data/gcalctool.ui.h:247
+ msgid "Numeric 6"
+-msgstr "આંકડાે ૬"
++msgstr "અંક 6"
+ 
+ #: ../data/gcalctool.ui.h:248
+ msgid "Numeric 7"
+-msgstr "આંકડાે ૭"
++msgstr "અંક 7"
+ 
+ #: ../data/gcalctool.ui.h:249
+ msgid "Numeric 8"
+-msgstr "આંકડાે ૮"
++msgstr "અંક 8"
+ 
+ #: ../data/gcalctool.ui.h:250
+ msgid "Numeric 9"
+-msgstr "આંકડાે ૯"
++msgstr "અંક 9"
+ 
+ #: ../data/gcalctool.ui.h:251
+ msgid "Numeric point"
+-msgstr "આંકડાકીય બિંદુ"
++msgstr "અંકીય બિંદુ"
+ 
+ #. Boolean OR button
+ #: ../data/gcalctool.ui.h:253
+@@ -1078,7 +1075,7 @@
+ 
+ #: ../data/gcalctool.ui.h:274
+ msgid "Random number in the range 0.0 to 1.0 [?]"
+-msgstr "૦.૦ થી ૧.૦ ની વચ્ચે કોઈપણ સંખ્યા [?]"
++msgstr "0.0 થી 1.0 ની વચ્ચે કોઈપણ સંખ્યા [?]"
+ 
+ #. Calculates the periodic interest necessary to increase an investment of present value pv to a future value of fv, over the number of compounding periods in term. See also: http://en.wikipedia.org/wiki/Interest
+ #: ../data/gcalctool.ui.h:276
+@@ -1120,7 +1117,7 @@
+ 
+ #: ../data/gcalctool.ui.h:286
+ msgid "Right bracket"
+-msgstr "જમણો કાૈંસ"
++msgstr "જમણો કૌંસ"
+ 
+ #: ../data/gcalctool.ui.h:287
+ msgid "Scientific"
+@@ -1153,19 +1150,19 @@
+ 
+ #: ../data/gcalctool.ui.h:295
+ msgid "Set numeric base to binary (base 2)"
+-msgstr "આંકડાનો આધાર બે બનાવો (આધાર ૨)"
++msgstr "આંકડાનો આધાર બે બનાવો (આધાર 2)"
+ 
+ #: ../data/gcalctool.ui.h:296
+ msgid "Set numeric base to decimal (base 10)"
+-msgstr "આંકડાનો આધાર દસ બનાવો (આધાર ૧૦)"
++msgstr "આંકડાનો આધાર દસ બનાવો (આધાર 10)"
+ 
+ #: ../data/gcalctool.ui.h:297
+ msgid "Set numeric base to hexadecimal (base 16)"
+-msgstr "આંકડાનો આધાર સોળ બનાવો (આધાર ૧૬)"
++msgstr "આંકડાનો આધાર સોળ બનાવો (આધાર 16)"
+ 
+ #: ../data/gcalctool.ui.h:298
+ msgid "Set numeric base to octal (base 8)"
+-msgstr "આંકડાનો આધાર આઠ બનાવો (આધાર ૮)"
++msgstr "આંકડાનો આધાર આઠ બનાવો (આધાર 8)"
+ 
+ #: ../data/gcalctool.ui.h:299
+ msgid "Set trigonometric type to degrees"
+@@ -1181,11 +1178,11 @@
+ 
+ #: ../data/gcalctool.ui.h:302
+ msgid "Shift displayed value 1-15 places to the left [<]"
+-msgstr "દેખાતી કિંમતોને ૧-૧૫ જેટલી ડાબે ખસેડો [<]"
++msgstr "દેખાતી કિંમતોને 1-15 જેટલી ડાબે ખસેડો [<]"
+ 
+ #: ../data/gcalctool.ui.h:303
+ msgid "Shift displayed value 1-15 places to the right [>]"
+-msgstr "દેખાતી કિંમતોને ૧-૧૫ જેટલી જમણે ખસેડો [>]"
++msgstr "દેખાતી કિંમતોને 1-15 જેટલી જમણે ખસેડો [>]"
+ 
+ #. View|Show Thousands Separator menu item
+ #: ../data/gcalctool.ui.h:305
+@@ -1220,7 +1217,7 @@
+ #. Set Precision Dialog: Label before the significant places spin button
+ #: ../data/gcalctool.ui.h:314
+ msgid "Significant _places:"
+-msgstr "નોંધપાત્ર જગ્યાઓ (_p):"
++msgstr "નોંધપાત્ર સ્થાનો (_p):"
+ 
+ #. Calculates the straight-line depreciation of an asset for one period. The depreciable cost is cost - salvage. The straight-line method of depreciation divides the depreciable cost evenly over the useful life of an asset. The useful life is the number of periods, typically years, over which an asset is depreciated. See also: http://en.wikipedia.org/wiki/Depreciation
+ #: ../data/gcalctool.ui.h:316
+@@ -1304,7 +1301,6 @@
+ msgstr "Trunc"
+ 
+ #: ../data/gcalctool.ui.h:339
+-#| msgid "Raise displayed value to the power of y [o]"
+ msgid "Truncate displayed value to the chosen word size ([)"
+ msgstr "પસંદ થયેલ માપમાં દેખાતી કિંમતને કાઢી નાંખો ([)"
+ 
+@@ -1329,112 +1325,112 @@
+ #. Accuracy Popup: Menu item to set accuracy to 0 significant places
+ #: ../data/gcalctool.ui.h:347
+ msgid "_0 significant places"
+-msgstr "_૦ નોંધપાત્ર જગ્યાઓ"
++msgstr "_0 નોંધપાત્ર સ્થાનો"
+ 
+ #. Right Shift Popup: Menu item to shift right by 1 bit
+ #: ../data/gcalctool.ui.h:349
+ msgid "_1 place"
+-msgstr "_૧ જગ્યા"
++msgstr "_1 સ્થાન"
+ 
+ #. Accuracy Popup: Menu item to set accuracy to 1 significant place
+ #: ../data/gcalctool.ui.h:351
+ msgid "_1 significant place"
+-msgstr "_૧ નોંધપાત્ર જગ્યાઓ"
++msgstr "_1 નોંધપાત્ર સ્થાનો"
+ 
+ #. 16 bit radio button
+ #: ../data/gcalctool.ui.h:353
+ msgid "_16 bit"
+-msgstr "16 બીટ (_1)"
++msgstr "_16 બીટ"
+ 
+ #. Right Shift Popup: Menu item to shift right by 2 bits
+ #: ../data/gcalctool.ui.h:355
+ msgid "_2 places"
+-msgstr "_૨ જગ્યાઓ"
++msgstr "_2 સ્થાનો"
+ 
+ #. Accuracy Popup: Menu item to set accuracy to 2 significant places
+ #: ../data/gcalctool.ui.h:357
+ msgid "_2 significant places"
+-msgstr "_૨ નોંધપાત્ર જગ્યાઓ"
++msgstr "_2 નોંધપાત્ર સ્થાનો"
+ 
+ #. Right Shift Popup: Menu item to shift right by 3 bits
+ #: ../data/gcalctool.ui.h:359
+ msgid "_3 places"
+-msgstr "_૩ જગ્યાઓ"
++msgstr "_3 સ્થાનો"
+ 
+ #. Accuracy Popup: Menu item to set accuracy to 3 significant places
+ #: ../data/gcalctool.ui.h:361
+ msgid "_3 significant places"
+-msgstr "_૩ નોંધપાત્ર જગ્યાઓ"
++msgstr "_3 નોંધપાત્ર સ્થાનો"
+ 
+ #. 32 bit radio button
+ #: ../data/gcalctool.ui.h:363
+ msgid "_32 bit"
+-msgstr "32 બીટ (_3)"
++msgstr "_32 બીટ"
+ 
+ #. Right Shift Popup: Menu item to shift right by 4 bits
+ #: ../data/gcalctool.ui.h:365
+ msgid "_4 places"
+-msgstr "_૪ જગ્યાઓ"
++msgstr "_4 સ્થાનો"
+ 
+ #. Accuracy Popup: Menu item to set accuracy to 4 significant places
+ #: ../data/gcalctool.ui.h:367
+ msgid "_4 significant places"
+-msgstr "_૪ નોંધપાત્ર જગ્યાઓ"
++msgstr "_4 નોંધપાત્ર સ્થાનો"
+ 
+ #. Right Shift Popup: Menu item to shift right by 5 bits
+ #: ../data/gcalctool.ui.h:369
+ msgid "_5 places"
+-msgstr "_૫ જગ્યાઓ"
++msgstr "_5 સ્થાનો"
+ 
+ #. Accuracy Popup: Menu item to set accuracy to 5 significant places
+ #: ../data/gcalctool.ui.h:371
+ msgid "_5 significant places"
+-msgstr "_૫ નોંધપાત્ર જગ્યાઓ"
++msgstr "_5 નોંધપાત્ર સ્થાનો"
+ 
+ #. Right Shift Popup: Menu item to shift right by 6 bits
+ #: ../data/gcalctool.ui.h:373
+ msgid "_6 places"
+-msgstr "_૬ જગ્યાઓ"
++msgstr "_6 સ્થાનો"
+ 
+ #. Accuracy Popup: Menu item to set accuracy to 6 significant places
+ #: ../data/gcalctool.ui.h:375
+ msgid "_6 significant places"
+-msgstr "_૬ નોંધપાત્ર જગ્યાઓ"
++msgstr "_6 નોંધપાત્ર સ્થાનો"
+ 
+ #. 64 bit radio button
+ #: ../data/gcalctool.ui.h:377
+ msgid "_64 bit"
+-msgstr "64 બીટ (_6)"
++msgstr "_64 બીટ"
+ 
+ #. Right Shift Popup: Menu item to shift right by 7 bits
+ #: ../data/gcalctool.ui.h:379
+ msgid "_7 places"
+-msgstr "_૭ જગ્યાઓ"
++msgstr "_7 સ્થાનો"
+ 
+ #. Accuracy Popup: Menu item to set accuracy to 7 significant places
+ #: ../data/gcalctool.ui.h:381
+ msgid "_7 significant places"
+-msgstr "_૭ નોંધપાત્ર જગ્યાઓ"
++msgstr "_7 નોંધપાત્ર સ્થાનો"
+ 
+ #. Right Shift Popup: Menu item to shift right by 8 bits
+ #: ../data/gcalctool.ui.h:383
+ msgid "_8 places"
+-msgstr "_૮ જગ્યાઓ"
++msgstr "_8 સ્થાનો"
+ 
+ #. Accuracy Popup: Menu item to set accuracy to 8 significant places
+ #: ../data/gcalctool.ui.h:385
+ msgid "_8 significant places"
+-msgstr "_૮ નોંધપાત્ર જગ્યાઓ"
++msgstr "_8 નોંધપાત્ર સ્થાનો"
+ 
+ #. Right Shift Popup: Menu item to shift right by 9 bits
+ #: ../data/gcalctool.ui.h:387
+ msgid "_9 places"
+-msgstr "_૯ જગ્યાઓ"
++msgstr "_9 સ્થાનો"
+ 
+ #. Accuracy Popup: Menu item to set accuracy to 9 significant places
+ #: ../data/gcalctool.ui.h:389
+ msgid "_9 significant places"
+-msgstr "_૯ નોંધપાત્ર જગ્યાઓ"
++msgstr "_9 નોંધપાત્ર સ્થાનો"
+ 
+ #. View|Advanced menu item
+ #: ../data/gcalctool.ui.h:391
+@@ -1551,52 +1547,52 @@
+ #. This is accessible name for memory register 0.  It is spoken by screen readers such as Orca, to help people who are blind or have low vision.
+ #: ../data/gcalctool.ui.h:434
+ msgid "register 0"
+-msgstr "રજીસ્ટર ૦"
++msgstr "રજીસ્ટર 0"
+ 
+ #. This is accessible name for memory register 1.  It is spoken by screen readers such as Orca, to help people who are blind or have low vision.
+ #: ../data/gcalctool.ui.h:436
+ msgid "register 1"
+-msgstr "રજીસ્ટર ૧"
++msgstr "રજીસ્ટર 1"
+ 
+ #. This is accessible name for memory register 2.  It is spoken by screen readers such as Orca, to help people who are blind or have low vision.
+ #: ../data/gcalctool.ui.h:438
+ msgid "register 2"
+-msgstr "રજીસ્ટર ૨"
++msgstr "રજીસ્ટર 2"
+ 
+ #. This is accessible name for memory register 3.  It is spoken by screen readers such as Orca, to help people who are blind or have low vision.
+ #: ../data/gcalctool.ui.h:440
+ msgid "register 3"
+-msgstr "રજીસ્ટર ૩"
++msgstr "રજીસ્ટર 3"
+ 
+ #. This is accessible name for memory register 4.  It is spoken by screen readers such as Orca, to help people who are blind or have low vision.
+ #: ../data/gcalctool.ui.h:442
+ msgid "register 4"
+-msgstr "રજીસ્ટર ૪"
++msgstr "રજીસ્ટર 4"
+ 
+ #. This is accessible name for memory register 5.  It is spoken by screen readers such as Orca, to help people who are blind or have low vision.
+ #: ../data/gcalctool.ui.h:444
+ msgid "register 5"
+-msgstr "રજીસ્ટર ૫"
++msgstr "રજીસ્ટર 5"
+ 
+ #. This is accessible name for memory register 6.  It is spoken by screen readers such as Orca, to help people who are blind or have low vision.
+ #: ../data/gcalctool.ui.h:446
+ msgid "register 6"
+-msgstr "રજીસ્ટર ૬"
++msgstr "રજીસ્ટર 6"
+ 
+ #. This is accessible name for memory register 7.  It is spoken by screen readers such as Orca, to help people who are blind or have low vision.
+ #: ../data/gcalctool.ui.h:448
+ msgid "register 7"
+-msgstr "રજીસ્ટર ૭"
++msgstr "રજીસ્ટર 7"
+ 
+ #. This is accessible name for memory register 8.  It is spoken by screen readers such as Orca, to help people who are blind or have low vision.
+ #: ../data/gcalctool.ui.h:450
+ msgid "register 8"
+-msgstr "રજીસ્ટર ૮"
++msgstr "રજીસ્ટર 8"
+ 
+ #. This is accessible name for memory register 9.  It is spoken by screen readers such as Orca, to help people who are blind or have low vision.
+ #: ../data/gcalctool.ui.h:452
+ msgid "register 9"
+-msgstr "રજીસ્ટર ૯"
++msgstr "રજીસ્ટર 9"
+ 
+ #: ../data/gcalctool.ui.h:453
+ msgid "x2"
+@@ -1613,7 +1609,6 @@
+ msgstr "ગાણિતીક, વૈજ્ઞાનિક અથવા આર્થિક ગણતરીઓ કરો"
+ 
+ #: ../data/gcalctool.schemas.in.h:1
+-#| msgid "Future value"
+ msgid "Accuracy value"
+ msgstr "ચોક્કસ કિંમત"
+ 
+@@ -1636,27 +1631,22 @@
+ msgstr "સૂચન કરો ક્યાંતો હજારો વિભાજકો વિશાળ સંખ્યાઓમાં બતાવેલ છે."
+ 
+ #: ../data/gcalctool.schemas.in.h:6
+-#| msgid "Mod"
+ msgid "Mode"
+-msgstr "Mode"
++msgstr "સ્થિતિ"
+ 
+ #: ../data/gcalctool.schemas.in.h:7
+-#| msgid "Numeric 0"
+ msgid "Numeric Base"
+ msgstr "પૂર્ણસંખ્યા આધાર"
+ 
+ #: ../data/gcalctool.schemas.in.h:8
+-#| msgid "Show memory registers"
+ msgid "Show Registers"
+ msgstr "રજીસ્ટરો બતાવો"
+ 
+ #: ../data/gcalctool.schemas.in.h:9
+-#| msgid "Show T_housands Separator"
+ msgid "Show Thousands Separator"
+ msgstr "હજારનો વિભાજક દેખાડો"
+ 
+ #: ../data/gcalctool.schemas.in.h:10
+-#| msgid "Show _Trailing Zeroes"
+ msgid "Show Trailing Zeroes"
+ msgstr "પાછળનાં શૂન્યો દેખાડો"
+ 
+@@ -1665,24 +1655,24 @@
+ "The initial calculator mode. Valid values are \"BASIC\", \"FINANCIAL\", "
+ "\"LOGICAL\", \"SCIENTIFIC\" and \"PROGRAMMING\""
+ msgstr ""
+-"પ્રારંભિક કેલ્ક્યુલેટર સ્થિતિ. યોગ્ય કિંમતો \"BASIC\", \"FINANCIAL\", "
+-"\"LOGICAL\", \"SCIENTIFIC\" અને \"PROGRAMMING\" આ છે"
++"પ્રારંભિક કેલ્ક્યુલેટર સ્થિતિ. યોગ્ય કિંમતો \"BASIC\", \"FINANCIAL\", \"LOGICAL\", "
++"\"SCIENTIFIC\" અને \"PROGRAMMING\" આ છે"
+ 
+ #: ../data/gcalctool.schemas.in.h:12
+ msgid ""
+ "The initial display mode. Valid values are \"ENG\" (engineering), \"FIX"
+ "\" (fixed-point) and \"SCI\" (scientific)"
+ msgstr ""
+-"પ્રારંભિક દેખાતી સ્થિતિ. યોગ્ય કિંમતો \"ENG\" (engineering), \"FIX"
+-"\" (fixed-point) અને \"SCI\" (scientific) આ છે"
++"પ્રારંભિક દેખાતી સ્થિતિ. યોગ્ય કિંમતો \"ENG\" (engineering), \"FIX\" (fixed-point) "
++"અને \"SCI\" (scientific) આ છે"
+ 
+ #: ../data/gcalctool.schemas.in.h:13
+ msgid ""
+ "The initial trigonometric type. Valid values are \"DEG\" (degrees), \"GRAD"
+ "\" (gradians) and \"RAD\" (radians)."
+ msgstr ""
+-"પ્રારંભિક ત્રિકોણમિતિય પ્રકાર. યોગ્ય કિંમતો \"DEG\" (degrees), \"GRAD"
+-"\" (gradians) અને \"RAD\" (radians) આ છે."
++"પ્રારંભિક ત્રિકોણમિતિય પ્રકાર. યોગ્ય કિંમતો \"DEG\" (degrees), \"GRAD\" (gradians) "
++"અને \"RAD\" (radians) આ છે."
+ 
+ #: ../data/gcalctool.schemas.in.h:14
+ msgid "The initial x-coordinate for the window"
+@@ -1714,12 +1704,9 @@
+ msgid ""
+ "The size of the words used in bitwise operations. Valid values are 16, 32 "
+ "and 64."
+-msgstr ""
+-"બીટવાઇઝ ક્રિયાઓમાં વપરાયેલ શબ્દોનું માપ. યોગ્ય કિંમતો 16, 32 "
+-"અને 64 છે."
++msgstr "બીટવાઇઝ ક્રિયાઓમાં વપરાયેલ શબ્દોનું માપ. યોગ્ય કિંમતો 16, 32 અને 64 છે."
+ 
+ #: ../data/gcalctool.schemas.in.h:21
+-#| msgid "Set trigonometric type to degrees"
+ msgid "Trigonometric type"
+ msgstr "ત્રિકોણમિતિનો પ્રકાર"
+ 
+@@ -1802,78 +1789,76 @@
+ #: ../src/calctool.c:191
+ #, c-format
+ msgid "%s: accuracy should be in the range 0-%d\n"
+-msgstr "%s: ચોકસાઈ ૦-%d ના વિસ્તારમાં હોવી જોઈએ\n"
++msgstr "%s: ચોકસાઈ 0-%d ના વિસ્તારમાં હોવી જોઈએ\n"
+ 
+-#: ../src/display.c:417
++#: ../src/display.c:416
+ msgid "No undo history"
+ msgstr "કોઈ રદ કરવાનો ઈતિહાસ નથી"
+ 
+-#: ../src/display.c:432
++#: ../src/display.c:431
+ msgid "No redo steps"
+ msgstr "કોઈ ફરી કરવાનાં પગલાંઓ નથી"
+ 
+ #. Translators: This message is displayed in the status bar when an
+ #. invalid user-defined function is executed
+-#: ../src/functions.c:235
++#: ../src/functions.c:237
+ msgid "Malformed function"
+ msgstr "વિચિત્ર વિધેય"
+ 
+ #. Translators: This message is displayed in the status bar when a bit
+ #. shift operation is performed and the display does not contain a number
+-#: ../src/functions.c:322
++#: ../src/functions.c:324
+ msgid "No sane value to do bitwise shift"
+ msgstr "bitwise shift કરવલા માટે કોઈ sane કિંમત નથી"
+ 
+-#: ../src/functions.c:343 ../src/functions.c:398
++#: ../src/functions.c:343 ../src/functions.c:396
+ msgid "No sane value to convert"
+ msgstr "ફેરવવા માટે કોઈ કિંમત નથી"
+ 
+-#: ../src/functions.c:366 ../src/functions.c:418
++#: ../src/functions.c:366 ../src/functions.c:416
+ msgid "No sane value to store"
+ msgstr "સંગ્રહવા માટે કોઈ કિંમત નથી"
+ 
+-#: ../src/functions.c:583
++#: ../src/functions.c:581
+ msgid "Invalid number for the current base"
+ msgstr "વર્તમાન આધાર માટે અયોગ્ય સંખ્યા"
+ 
+ #. Translators: Error displayed to user when they
+ #. * perform an invalid bitwise operation, e.g.
+ #. * 1 XOR -1
+-#: ../src/functions.c:590
+-#| msgid "Invalid bitwise operation parameter(s)"
++#: ../src/functions.c:588
+ msgid "Invalid bitwise operation"
+ msgstr "અયોગ્ય બીટવાઈઝ પ્રક્રિયા"
+ 
+ #. Translators: Error displayed to user when they
+ #. * perform an invalid modulus operation, e.g.
+ #. * 6 MOD 1.2
+-#: ../src/functions.c:597
+-#| msgid "Invalid modulus operation parameter(s)"
++#: ../src/functions.c:595
+ msgid "Invalid modulus operation"
+ msgstr "અયોગ્ય ચલગુણક પ્રક્રિયા"
+ 
+ #. Translators; Error displayd to user when they
+ #. * perform a bitwise operation on numbers greater
+ #. * than the current word
+-#: ../src/functions.c:604
++#: ../src/functions.c:602
+ msgid "Overflow. Try a bigger word size"
+ msgstr "ઊભરાયુ. મોટામાં મોટા શબ્દ માપનો પ્રયત્ન કરો"
+ 
+ #. Translators; Error displayd to user when they
+ #. * an unknown variable is entered
+-#: ../src/functions.c:610
++#: ../src/functions.c:608
+ msgid "Unknown variable"
+ msgstr "અજ્ઞાત ચલ"
+ 
+ #. Translators; Error displayd to user when they
+ #. * an unknown function is entered
+-#: ../src/functions.c:616
++#: ../src/functions.c:614
+ msgid "Unknown function"
+ msgstr "અજ્ઞાત વિધેય"
+ 
+ #. Translators: Error displayed to user when they
+ #. * enter an invalid calculation
+-#: ../src/functions.c:626
++#: ../src/functions.c:624
+ msgid "Malformed expression"
+ msgstr "વિચિત્ર સમીકરણ"
+ 
+@@ -1932,34 +1917,30 @@
+ msgstr "કેલ્ક્યુલેટર [%s] - પ્રોગ્રામીંગ"
+ 
+ #. Translators: Title of the error dialog when unable to load the UI files
+-#: ../src/gtk.c:572
++#: ../src/gtk.c:574
+ msgid "Error loading user interface"
+ msgstr "વપરાશકર્તા ઈન્ટરફેસ લાવવામાં ભૂલ"
+ 
+ #. Translators: Description in UI error dialog when unable to load the UI files. %s is replaced with the error message provided by GTK+
+-#: ../src/gtk.c:575
++#: ../src/gtk.c:577
+ #, c-format
+-#| msgid ""
+-#| "The user interface file %s is missing or unable to be loaded. Please "
+-#| "check your installation."
+ msgid ""
+ "A required file is missing or damaged, please check your installation.\n"
+ "\n"
+ "%s"
+ msgstr ""
+-"જરૂરી ફાઇલ ગુમ થયેલ છે અથવા નષ્ટ થયેલ છે. મહેરબાની કરીને તમારું "
+-"સ્થાપન ચકાસો.\n"
++"જરૂરી ફાઇલ ગુમ થયેલ છે અથવા નષ્ટ થયેલ છે. મહેરબાની કરીને તમારું સ્થાપન ચકાસો.\n"
+ "\n"
+ "%s"
+ 
+ #. Translators: Accuracy Popup: Menu item to show the accuracy dialog. %d is replaced with the current accuracy.
+-#: ../src/gtk.c:672
++#: ../src/gtk.c:674
+ #, c-format
+ msgid "_Other (%d) ..."
+ msgstr "અન્ય (%d) (_O) ..."
+ 
+ #. Translators: Tooltip for accuracy button
+-#: ../src/gtk.c:678
++#: ../src/gtk.c:680
+ #, c-format
+ msgid "Set accuracy from 0 to %d numeric place. [A]"
+ msgid_plural "Set accuracy from 0 to %d numeric places. [A]"
+@@ -1967,244 +1948,211 @@
+ msgstr[1] "0 થી %d દશાંશ સ્થળો સુધી ચોકસાઈ સુયોજીત કરો. [A]"
+ 
+ #. Translators: The sine button
+-#: ../src/gtk.c:703
+-#| msgid "Sin"
++#: ../src/gtk.c:705
+ msgid "sin"
+ msgstr "sin"
+ 
+ #. Translators: The inverse sine button
+-#: ../src/gtk.c:705
+-#| msgid "Sin<sup>-1</sup>"
++#: ../src/gtk.c:707
+ msgid "sin<sup>−1</sup>"
+ msgstr "sin<sup>−1</sup>"
+ 
+ #. Translators: The hyperbolic sine button
+-#: ../src/gtk.c:707
+-#| msgid "Sinh"
++#: ../src/gtk.c:709
+ msgid "sinh"
+ msgstr "sinh"
+ 
+ #. Translators: The inverse hyperbolic sine button
+-#: ../src/gtk.c:709
+-#| msgid "Sinh<sup>-1</sup>"
++#: ../src/gtk.c:711
+ msgid "sinh<sup>−1</sup>"
+ msgstr "sinh<sup>−1</sup>"
+ 
+ #. Translators: The sine tooltip
+-#: ../src/gtk.c:712
++#: ../src/gtk.c:714
+ msgid "Sine [k]"
+ msgstr "સાઈન [k]"
+ 
+ #. Translators: The inverse sine tooltip
+-#: ../src/gtk.c:714
++#: ../src/gtk.c:716
+ msgid "Inverse Sine [K]"
+ msgstr "ઉલટી સાઈન [K]"
+ 
+ #. Translators: The hyperbolic sine tooltip
+-#: ../src/gtk.c:716
++#: ../src/gtk.c:718
+ msgid "Hyperbolic Sine [k]"
+ msgstr "હાઇપરબોલિક સાઇન [k]"
+ 
+ #. Translators: The hyperbolic inverse sine tooltip
+-#: ../src/gtk.c:718
++#: ../src/gtk.c:720
+ msgid "Hyperbolic Inverse Sine [K]"
+ msgstr "બાઇપરબોલિક ઉલટી સાઇન [K]"
+ 
+ #. Translators: The cosine button
+-#: ../src/gtk.c:722
+-#| msgid "Cos"
++#: ../src/gtk.c:724
+ msgid "cos"
+ msgstr "cos"
+ 
+ #. Translators: The inverse cosine button
+-#: ../src/gtk.c:724
+-#| msgid "Cos<sup>-1</sup>"
++#: ../src/gtk.c:726
+ msgid "cos<sup>−1</sup>"
+ msgstr "cos<sup>−1</sup>"
+ 
+ #. Translators: The hyperbolic cosine button
+-#: ../src/gtk.c:726
+-#| msgid "Cosh"
++#: ../src/gtk.c:728
+ msgid "cosh"
+ msgstr "cosh"
+ 
+ #. Translators: The inverse hyperbolic cosine button
+-#: ../src/gtk.c:728
+-#| msgid "Cosh<sup>-1</sup>"
++#: ../src/gtk.c:730
+ msgid "cosh<sup>−1</sup>"
+ msgstr "cosh<sup>−1</sup>"
+ 
+ #. Translators: The cosine tooltip
+-#: ../src/gtk.c:731
++#: ../src/gtk.c:733
+ msgid "Cosine [j]"
+ msgstr "કોસાઈન [j]"
+ 
+ #. Translators: The inverse cosine tooltip
+-#: ../src/gtk.c:733
++#: ../src/gtk.c:735
+ msgid "Inverse Cosine [J]"
+ msgstr "ઉલટો કોસાઈન [J]"
+ 
+ #. Translators: The hyperbolic cosine tooltip
+-#: ../src/gtk.c:735
++#: ../src/gtk.c:737
+ msgid "Hyperbolic Cosine [j]"
+ msgstr "હાઇપરબોલિક કોસાઇન [j]"
+ 
+ #. Translators: The hyperbolic inverse cosine tooltip
+-#: ../src/gtk.c:737
++#: ../src/gtk.c:739
+ msgid "Hyperbolic Inverse Cosine [J]"
+ msgstr "હાઇપરબોલિક ઉલટી કોસાઇન [J]"
+ 
+ #. Translators: The tangent button
+-#: ../src/gtk.c:741
+-#| msgid "Tan"
++#: ../src/gtk.c:743
+ msgid "tan"
+ msgstr "tan"
+ 
+ #. Translators: The inverse tangent button
+-#: ../src/gtk.c:743
+-#| msgid "Tan<sup>-1</sup>"
++#: ../src/gtk.c:745
+ msgid "tan<sup>−1</sup>"
+ msgstr "tan<sup>−1</sup>"
+ 
+ #. Translators: The hyperbolic tangent button
+-#: ../src/gtk.c:745
+-#| msgid "Tanh"
++#: ../src/gtk.c:747
+ msgid "tanh"
+ msgstr "tanh"
+ 
+ #. Translators: The inverse hyperbolic tangent button
+-#: ../src/gtk.c:747
+-#| msgid "Tanh<sup>-1</sup>"
++#: ../src/gtk.c:749
+ msgid "tanh<sup>−1</sup>"
+ msgstr "tanh<sup>−1</sup>"
+ 
+ #. Translators: The tangent tooltip
+-#: ../src/gtk.c:750
++#: ../src/gtk.c:752
+ msgid "Tangent [w]"
+ msgstr "ટેન્જન્ટ [W]"
+ 
+ #. Translators: The inverse tangent tooltip
+-#: ../src/gtk.c:752
++#: ../src/gtk.c:754
+ msgid "Inverse Tangent [W]"
+ msgstr "ઉલટો ટેન્જન્ટ [W]"
+ 
+ #. Translators: The hyperbolic tangent tooltip
+-#: ../src/gtk.c:754
++#: ../src/gtk.c:756
+ msgid "Hyperbolic Tangent [w]"
+ msgstr "હાયપરબોલિક ટેન્જન્ટ [w]"
+ 
+ #. Translators: The hyperbolic inverse tangent tooltip
+-#: ../src/gtk.c:756
++#: ../src/gtk.c:758
+ msgid "Hyperbolic Inverse Tangent [W]"
+ msgstr "હાયપરબોલિક ઈન્વર્સ ટેન્જન્ટ [W]"
+ 
+ #. Translators: The natural logaritm button
+-#: ../src/gtk.c:761
+-#| msgid "Sln"
++#: ../src/gtk.c:763
+ msgid "ln"
+ msgstr "ln"
+ 
+ #. Translators: The e to the power of x button
+-#: ../src/gtk.c:763
++#: ../src/gtk.c:765
+ msgid "e<sup><i>x</i></sup>"
+ msgstr "e<sup><i>x</i></sup>"
+ 
+ #. Translators: Tooltip for the natural log button
+-#: ../src/gtk.c:766
+-#| msgid "Natural log [n]"
++#: ../src/gtk.c:768
+ msgid "Natural logarithm [n]"
+ msgstr "પ્રાકૃતિક લઘુગણક [n]"
+ 
+ #. Translators: Tooltip for the e to the power of x button
+-#: ../src/gtk.c:768
++#: ../src/gtk.c:770
+ msgid "e to the power of the displayed value [N]"
+ msgstr "દેખાતી કિંમતનો e ઘાતાંક [N]"
+ 
+ #. Translators: The 10-based logaritm button
+-#: ../src/gtk.c:773
+-#| msgid "Log"
++#: ../src/gtk.c:775
+ msgid "log"
+ msgstr "log"
+ 
+ #. Translators: The 10 to the power of x button
+-#: ../src/gtk.c:775
++#: ../src/gtk.c:777
+ msgid "10<sup><i>x</i></sup>"
+ msgstr "10<sup><i>x</i></sup>"
+ 
+ #. Translators: Tooltip for the log base 10 button
+-#: ../src/gtk.c:778
+-#| msgid "Base 10 log [g]"
++#: ../src/gtk.c:780
+ msgid "Base 10 logarithm [g]"
+-msgstr "૧૦ આધારવાળો લઘુગણક [g]"
++msgstr "10 આધારવાળો લઘુગણક [g]"
+ 
+ #. Translators: Tooltip for the 10 to the power of x button
+-#: ../src/gtk.c:780
++#: ../src/gtk.c:782
+ msgid "10 to the power of displayed value [G]"
+ msgstr "દેખાતી કિંમતનો 10 ઘાતાંક [G]"
+ 
+ #. Translators: The 2-based logaritm button
+-#: ../src/gtk.c:785
+-#| msgid "Log<sub>2</sub>"
++#: ../src/gtk.c:787
+ msgid "log<sub>2</sub>"
+ msgstr "log<sub>2</sub>"
+ 
+ #. Translators: The 2 to the power of x button
+-#: ../src/gtk.c:787
++#: ../src/gtk.c:789
+ msgid "2<sup><i>x</i></sup>"
+ msgstr "2<sup><i>x</i></sup>"
+ 
+ #. Translators: Tooltip for the log base 2 button
+-#: ../src/gtk.c:790
+-#| msgid "Base 2 log [h]"
++#: ../src/gtk.c:792
+ msgid "Base 2 logarithm [h]"
+-msgstr "૨ આધારવાળો લઘુગણક [h]"
++msgstr "2 આધારવાળો લઘુગણક [h]"
+ 
+ #. Translators: Tooltip for the 2 to the power of x button
+-#: ../src/gtk.c:792
++#: ../src/gtk.c:794
+ msgid "2 to the power of the displayed value [H]"
+ msgstr "દેખાતી કિંમતનો 2 ઘાતાંક [H]"
+ 
+ #. Translators: The x to the power of y button
+-#: ../src/gtk.c:797
++#: ../src/gtk.c:799
+ msgid "x<sup><i>y</i></sup>"
+ msgstr "x<sup><i>y</i></sup>"
+ 
+ #. Translators: The x to the power of reciprocal y button
+-#: ../src/gtk.c:799
++#: ../src/gtk.c:801
+ msgid "x<sup>1/<i>y</i></sup>"
+ msgstr "x<sup>1/<i>y</i></sup>"
+ 
+ #. Translators: Tooltip for the x to the power of y button
+-#: ../src/gtk.c:802
++#: ../src/gtk.c:804
+ msgid "Raise displayed value to the power of y [o]"
+ msgstr "દેખાતી કિંમતને y ના ઘાતાંકમાં મૂકો [o]"
+ 
+ #. Translators: Tooltip for the x to the power of reciprocal y button
+-#: ../src/gtk.c:804
++#: ../src/gtk.c:806
+ msgid "Raise displayed value to the power of reciprocal y [O]"
+ msgstr "દેખાતી કિંમતને ઉલટા y ના ઘાતાંક પર મૂકો [O]"
+ 
+ #. Translators: The translator credits. Please translate this with your name(s).
+-#: ../src/gtk.c:1365
++#: ../src/gtk.c:1395
+ msgid "translator-credits"
+ msgstr "અંકિત પટેલ <ankit644@yahoo.com>"
+ 
+-#: ../src/gtk.c:1369
+-#| msgid ""
+-#| "Gcalctool is free software; you can redistribute it and/or modify\n"
+-#| "it under the terms of the GNU General Public License as published by\n"
+-#| "the Free Software Foundation; either version 2 of the License, or\n"
+-#| "(at your option) any later version.\n"
+-#| "\n"
+-#| "Gcalctool is distributed in the hope that it will be useful,\n"
+-#| "but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+-#| "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+-#| "GNU General Public License for more details.\n"
+-#| "\n"
+-#| "You should have received a copy of the GNU General Public License\n"
+-#| "along with Gcalctool; if not, write to the Free Software Foundation, "
+-#| "Inc.,\n"
+-#| "51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA\n"
++#: ../src/gtk.c:1399
+ msgid ""
+ "Gcalctool is free software; you can redistribute it and/or modify\n"
+ "it under the terms of the GNU General Public License as published by\n"
+@@ -2235,60 +2183,60 @@
+ "51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA"
+ 
+ #. Translators: Program name in the about dialog
+-#: ../src/gtk.c:1385
++#: ../src/gtk.c:1415
+ msgid "Gcalctool"
+ msgstr "જીનોમ કેલ્ક્યુલેટર"
+ 
+ #. Translators: Copyright notice in the about dialog
+-#: ../src/gtk.c:1388
++#: ../src/gtk.c:1418
+ msgid "© 1986-2008 The Gcalctool authors"
+ msgstr "© 1986-2008 The Gcalctool authors"
+ 
+ #. Translators: Short description in the about dialog
+-#: ../src/gtk.c:1391
++#: ../src/gtk.c:1421
+ msgid "Calculator with financial and scientific modes."
+ msgstr "આર્થિક અને વૈજ્ઞાનિક સ્થિતિઓ સાથેનુ કેલ્ક્યુલેટર."
+ 
+-#: ../src/gtk.c:1549
++#: ../src/gtk.c:1579
+ msgid "Unable to open help file"
+ msgstr "મદદ ફાઇલ ને ખોલવામાં અસમર્થ"
+ 
+ #. Translators: R is the short form of register used inter alia in popup menus
+-#: ../src/gtk.c:1956
++#: ../src/gtk.c:1990
+ msgid "R"
+ msgstr "R"
+ 
+ #. FIXME: WTF?
+-#: ../src/gtk.c:2319
++#: ../src/gtk.c:2371
+ msgid "Paste"
+ msgstr "ચોંટાડો"
+ 
+ #. Translators: Edit Constants Dialog: Constant number column title
+ #. Translators: Edit Functions Dialog: Function number column title
+-#: ../src/gtk.c:2679 ../src/gtk.c:2696
++#: ../src/gtk.c:2739 ../src/gtk.c:2756
+ msgid "No."
+ msgstr "ના."
+ 
+ #. Translators: Edit Constants Dialog: Constant value column title
+ #. Translators: Edit Functions Dialog: Function value column title
+-#: ../src/gtk.c:2681 ../src/gtk.c:2699
++#: ../src/gtk.c:2741 ../src/gtk.c:2759
+ msgid "Value"
+ msgstr "કિંમત"
+ 
+ #. Translators: Edit Constants Dialog: Constant description column title
+ #. Translators: Edit Functions Dialog: Function description column title
+-#: ../src/gtk.c:2683 ../src/gtk.c:2702
++#: ../src/gtk.c:2743 ../src/gtk.c:2762
+ msgid "Description"
+ msgstr "વર્ણન"
+ 
+ #. Set default accuracy menu item
+ #. Translators: Accuracy Popup: Menu item to reset the accuracy to the default value. %d is replaced with the default value.
+-#: ../src/gtk.c:2826
++#: ../src/gtk.c:2886
+ #, c-format
+ msgid "Reset to _Default (%d)"
+ msgstr "મૂળભૂતોમાં પુનઃસુયોજીત કરો (_D) (%d)"
+ 
+-#: ../src/mp.c:1467
++#: ../src/mp.c:1469
+ msgid "Negative X and non-integer Y not supported"
+ msgstr "ઋણ X અને બિન-પૂર્ણાં Y આધારભૂત નથી"
+ 
+@@ -2305,7 +2253,7 @@
+ #. Translators: This is the label for the default constant, the square root of 2 (1.41421)
+ #: ../src/register.c:42
+ msgid "square root of 2"
+-msgstr "૨ નું વર્ગમૂળ"
++msgstr "2 નું વર્ગમૂળ"
+ 
+ #. Translators: This is the label for the default constant, Euler's number (2.71828)
+ #: ../src/register.c:44
+@@ -2330,7 +2278,7 @@
+ #. Translators: This is the label for the default constant, 2 to the power of 20 (1048576)
+ #: ../src/register.c:52
+ msgid "2 ^ 20"
+-msgstr "૨ ^ ૨૦"
++msgstr "2 ^ 20"
+ 
+ #. Translators: This is the label for the default constant, the number of ounces in one gram (0.0353)
+ #: ../src/register.c:54
+diff -urN a/gcalctool-5.28.2/po/hi.po b/gcalctool-5.28.2/po/hi.po
+--- a/gcalctool-5.28.2/po/hi.po	2010-08-05 17:16:33.592135037 +0530
++++ b/gcalctool-5.28.2/po/hi.po	2010-08-05 17:16:50.261141019 +0530
+@@ -1,19 +1,19 @@
+-# translation of gcalctool.master.po to Hindi
++# translation of hi.po to Hindi
+ # This file is distributed under the same license as the PACKAGE package.
+ # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+ #
+ # G Karunakar <karunakar@freedomink.org>, 2003.
+ # Ravishankar Shrivastava <raviratlami@yahoo.com>, 2004.
+-# Rajesh Ranjan <rranjan@redhat.com>, 2005, 2006, 2008, 2009.
++# Rajesh Ranjan <rranjan@redhat.com>, 2005, 2006, 2008, 2009, 2010.
+ # Rajesh Ranjan <rajesh672@gmail.com>, 2009.
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: gcalctool.master\n"
+-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gcalctool&component=general\n"
+-"POT-Creation-Date: 2009-08-16 06:22+0000\n"
+-"PO-Revision-Date: 2009-09-17 16:46+0530\n"
+-"Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
+-"Language-Team: Hindi <hindi.sf.net>\n"
++"Project-Id-Version: hi\n"
++"Report-Msgid-Bugs-To: \n"
++"POT-Creation-Date: 2010-07-19 17:42+0530\n"
++"PO-Revision-Date: 2010-07-26 17:27+0530\n"
++"Last-Translator: Rajesh Ranjan <rranjan@redhat.com>\n"
++"Language-Team: Hindi <fedora-trans-hi@redhat.com>\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
+@@ -27,6 +27,7 @@
+ "\n"
+ "\n"
+ "\n"
++"\n"
+ 
+ #. Payment Period Dialog: Button to calculate result
+ #: ../data/financial.ui.h:2
+@@ -43,7 +44,9 @@
+ msgid ""
+ "Calculates the amount of the periodic payment of a loan, where payments are "
+ "made at the end of each payment period. "
+-msgstr "ऋण के आवधिक भुगतान के लिए राशि की गणना करता है, जहाँ भुगतान हर भुगतान अवधि के अंत में किया जाता है."
++msgstr ""
++"ऋण के आवधिक भुगतान के लिए राशि की गणना करता है, जहाँ भुगतान हर भुगतान अवधि के अंत में "
++"किया जाता है."
+ 
+ #. Sum-Of-The-Years'-Digits Depreciation Dialog: Description of calculation
+ #: ../data/financial.ui.h:8
+@@ -53,14 +56,20 @@
+ "accelerates the rate of depreciation, so that more depreciation expense "
+ "occurs in earlier periods than in later ones. The useful life is the number "
+ "of periods, typically years, over which an asset is depreciated. "
+-msgstr "समय की निर्दिष्ट अवधि के लिए मूल्यह्रास भत्ता की गणना करता है, Sum-Of-The-Years'-Digits विधि के प्रयोग से. मूल्यह्रास की विधि मूल्यह्रास की दर को त्वरित करता है ताकि अधिक मूल्यह्रास व्यय बाद के बजाय पहली अवधि में हो. उपयोगी जीवन अवधि की संख्या है प्रारूपकीय तौर पर वर्ष जिसपर कोई परिसंपत्ति मूल्यह्रास होती है."
++msgstr ""
++"समय की निर्दिष्ट अवधि के लिए मूल्यह्रास भत्ता की गणना करता है, Sum-Of-The-Years'-"
++"Digits विधि के प्रयोग से. मूल्यह्रास की विधि मूल्यह्रास की दर को त्वरित करता है ताकि "
++"अधिक मूल्यह्रास व्यय बाद के बजाय पहली अवधि में हो. उपयोगी जीवन अवधि की संख्या है "
++"प्रारूपकीय तौर पर वर्ष जिसपर कोई परिसंपत्ति मूल्यह्रास होती है."
+ 
+ #. Double-Declining Depreciation Dialog: Description of calculation
+ #: ../data/financial.ui.h:10
+ msgid ""
+ "Calculates the depreciation allowance on an asset for a specified period of "
+ "time, using the double-declining balance method."
+-msgstr "समय की निर्दिष्ट अवधि के लिए मूल्यह्रास भत्ता की गणना करता है, दोहरे कमी विधि के प्रयोग से."
++msgstr ""
++"समय की निर्दिष्ट अवधि के लिए मूल्यह्रास भत्ता की गणना करता है, दोहरे कमी विधि के प्रयोग "
++"से."
+ 
+ #. Future Value Dialog: Description of calculation
+ #: ../data/financial.ui.h:12
+@@ -68,7 +77,9 @@
+ "Calculates the future value of an investment based on a series of equal "
+ "payments at a periodic interest rate over the number of payment periods in "
+ "the term."
+-msgstr "किसी निवेश के भविष्य के मान की गणना आवधिक ब्याज दर से बराबर भुगतान पर करता है उस अवधि में भुगतान अवधि की संख्या के आधार पर."
++msgstr ""
++"किसी निवेश के भविष्य के मान की गणना आवधिक ब्याज दर से बराबर भुगतान पर करता है उस "
++"अवधि में भुगतान अवधि की संख्या के आधार पर."
+ 
+ #. Compounding Term Dialog: Description of calculation
+ #: ../data/financial.ui.h:14
+@@ -76,7 +87,9 @@
+ "Calculates the number of compounding periods necessary to increase an "
+ "investment of present value to a future value, at a fixed interest rate per "
+ "compounding period."
+-msgstr "समझौता अवधि की संख्या की गणना करता है जो कि किसी निवेश को वर्तमान मान से भविष्य के मान में बढ़ाने के लिए जरूरी है, एक स्थिर ब्याज दर प्रति समझौता अवधि के लिए."
++msgstr ""
++"समझौता अवधि की संख्या की गणना करता है जो कि किसी निवेश को वर्तमान मान से भविष्य के "
++"मान में बढ़ाने के लिए जरूरी है, एक स्थिर ब्याज दर प्रति समझौता अवधि के लिए."
+ 
+ #. Payment Period Dialog: Description of calculation
+ #: ../data/financial.ui.h:16
+@@ -84,14 +97,18 @@
+ "Calculates the number of payment periods that are necessary during the term "
+ "of an ordinary annuity, to accumulate a future value, at a periodic interest "
+ "rate."
+-msgstr "भुगतान अवधि की संख्या की गणना करता है जो कि किसी सामान्य वार्षिकी के दौरान जरूरी होता है, किसी भविष्य के मान को समाहित करने के लिए, किसी आवधिक ब्याज दर पर."
++msgstr ""
++"भुगतान अवधि की संख्या की गणना करता है जो कि किसी सामान्य वार्षिकी के दौरान जरूरी "
++"होता है, किसी भविष्य के मान को समाहित करने के लिए, किसी आवधिक ब्याज दर पर."
+ 
+ #. Periodic Interest Rate Dialog: Description of calculation
+ #: ../data/financial.ui.h:18
+ msgid ""
+ "Calculates the periodic interest necessary to increase an investment to a "
+ "future value, over the number of compounding periods. "
+-msgstr "आवधिक ब्याज की गणना करता है जो किसी निवेश को भविष्य के मूल्य तक बढ़ाने के लिए जरूरी है, समझौता अवधि की संख्या के आधार पर. "
++msgstr ""
++"आवधिक ब्याज की गणना करता है जो किसी निवेश को भविष्य के मूल्य तक बढ़ाने के लिए जरूरी है, "
++"समझौता अवधि की संख्या के आधार पर. "
+ 
+ #. Present Value Dialog: Description of calculation
+ #: ../data/financial.ui.h:20
+@@ -99,14 +116,18 @@
+ "Calculates the present value of an investment based on a series of equal "
+ "payments discounted at a periodic interest rate over the number of payment "
+ "periods in the term. "
+-msgstr "समान भुगतान की शृंखला पर आधारित किसी निवेश के मौजूदा मान की गणना करता है जो आवधिक ब्याज दर पर उस अवधि में भुगतान की संख्या पर. "
++msgstr ""
++"समान भुगतान की शृंखला पर आधारित किसी निवेश के मौजूदा मान की गणना करता है जो आवधिक "
++"ब्याज दर पर उस अवधि में भुगतान की संख्या पर. "
+ 
+ #. Gross Profit Margin Dialog: Description of calculation
+ #: ../data/financial.ui.h:22
+ msgid ""
+ "Calculates the resale price of a product, based on the product cost and the "
+ "wanted gross profit margin."
+-msgstr "किसी उत्पाद की पुनर्विक्रिय मूल्य की गणना करता है, उत्पाद लागत और वांछित सकल लाभांश के आधार पर."
++msgstr ""
++"किसी उत्पाद की पुनर्विक्रिय मूल्य की गणना करता है, उत्पाद लागत और वांछित सकल लाभांश के "
++"आधार पर."
+ 
+ #. Straight-Line Depreciation Dialog: Description of calculation
+ #: ../data/financial.ui.h:24
+@@ -115,7 +136,11 @@
+ "straight-line method of depreciation divides the depreciable cost evenly "
+ "over the useful life of an asset. The useful life is the number of periods, "
+ "typically years, over which an asset is depreciated. "
+-msgstr "किसी एक अवधि के लिए परिसंपत्ति के प्रत्य़क्ष पंक्ति मूल्यह्रास की गणना करता है. मूल्यह्रास की प्रत्यक्ष विधि मूल्यह्रास लागत को बांटता है जो कि परिसंपत्ति के किसी उपयोगी जीवन पर मान रूप से वितरित रहता है. उपयोगी जीवन अवधि की संख्या है, खासकर वर्ण, जिस पर कि कोई परिसंपत्ति का मूल्यह्रास होता है. "
++msgstr ""
++"किसी एक अवधि के लिए परिसंपत्ति के प्रत्य़क्ष पंक्ति मूल्यह्रास की गणना करता है. मूल्यह्रास की "
++"प्रत्यक्ष विधि मूल्यह्रास लागत को बांटता है जो कि परिसंपत्ति के किसी उपयोगी जीवन पर मान "
++"रूप से वितरित रहता है. उपयोगी जीवन अवधि की संख्या है, खासकर वर्ण, जिस पर कि कोई "
++"परिसंपत्ति का मूल्यह्रास होता है. "
+ 
+ #. Title of Compounding Term dialog
+ #: ../data/financial.ui.h:26
+@@ -269,7 +294,6 @@
+ msgstr "("
+ 
+ #: ../data/gcalctool.ui.h:16
+-#| msgid "Ln"
+ msgid "(Ln)"
+ msgstr "(Ln)"
+ 
+@@ -604,7 +628,7 @@
+ msgstr "Bksp"
+ 
+ #. Hexadecimal digit C button
+-#: ../data/gcalctool.ui.h:136 ../src/gtk.c:1700
++#: ../data/gcalctool.ui.h:136 ../src/gtk.c:1734
+ msgid "C"
+ msgstr "C"
+ 
+@@ -774,7 +798,7 @@
+ msgstr "Exp"
+ 
+ #. Hexadecimal digit F button
+-#: ../data/gcalctool.ui.h:192 ../src/gtk.c:1723
++#: ../data/gcalctool.ui.h:192 ../src/gtk.c:1757
+ msgid "F"
+ msgstr "F"
+ 
+@@ -935,43 +959,43 @@
+ 
+ #: ../data/gcalctool.ui.h:241
+ msgid "Numeric 0"
+-msgstr "अंक ०"
++msgstr "अंक 0"
+ 
+ #: ../data/gcalctool.ui.h:242
+ msgid "Numeric 1"
+-msgstr "अंक १"
++msgstr "अंक 1"
+ 
+ #: ../data/gcalctool.ui.h:243
+ msgid "Numeric 2"
+-msgstr "अंक २"
++msgstr "अंक 2"
+ 
+ #: ../data/gcalctool.ui.h:244
+ msgid "Numeric 3"
+-msgstr "अंक ३"
++msgstr "अंक 3"
+ 
+ #: ../data/gcalctool.ui.h:245
+ msgid "Numeric 4"
+-msgstr "अंक ४"
++msgstr "अंक 4"
+ 
+ #: ../data/gcalctool.ui.h:246
+ msgid "Numeric 5"
+-msgstr "अंक ५"
++msgstr "अंक 5"
+ 
+ #: ../data/gcalctool.ui.h:247
+ msgid "Numeric 6"
+-msgstr "अंक ६"
++msgstr "अंक 6"
+ 
+ #: ../data/gcalctool.ui.h:248
+ msgid "Numeric 7"
+-msgstr "अंक ७"
++msgstr "अंक 7"
+ 
+ #: ../data/gcalctool.ui.h:249
+ msgid "Numeric 8"
+-msgstr "अंक ८"
++msgstr "अंक 8"
+ 
+ #: ../data/gcalctool.ui.h:250
+ msgid "Numeric 9"
+-msgstr "अंक ९"
++msgstr "अंक 9"
+ 
+ #: ../data/gcalctool.ui.h:251
+ msgid "Numeric point"
+@@ -1177,7 +1201,7 @@
+ 
+ #: ../data/gcalctool.ui.h:309
+ msgid "Show memory registers"
+-msgstr "मेमोरी रेजिस्ँ  दिखाएँM)"
++msgstr "मेमोरी रेजिस्टर्स दिखाएँ"
+ 
+ #: ../data/gcalctool.ui.h:310
+ msgid "Show the About Gcalctool dialog"
+@@ -1189,7 +1213,7 @@
+ 
+ #: ../data/gcalctool.ui.h:312
+ msgid "Show trailing zeroes"
+-msgstr "अंत मे अतिरिक्त शून्य दिाएँ"
++msgstr "अंत मे अतिरिक्त शून्य दिखाएँ"
+ 
+ #. Set Precision Dialog: Label before the significant places spin button
+ #: ../data/gcalctool.ui.h:314
+@@ -1278,7 +1302,6 @@
+ msgstr "Trunc"
+ 
+ #: ../data/gcalctool.ui.h:339
+-#| msgid "Raise displayed value to the power of y [o]"
+ msgid "Truncate displayed value to the chosen word size ([)"
+ msgstr "दिखाए गए मान को चुने गए शब्द आकार में काटें ([)"
+ 
+@@ -1586,7 +1609,6 @@
+ msgstr "अंकगणित, वैज्ञानिक, या वित्तीय गणना करें"
+ 
+ #: ../data/gcalctool.schemas.in.h:1
+-#| msgid "Future value"
+ msgid "Accuracy value"
+ msgstr "शुद्धता मान"
+ 
+@@ -1598,7 +1620,9 @@
+ msgid ""
+ "Indicates whether any trailing zeroes after the number point should be shown "
+ "in the display value."
+-msgstr "बताता है कि कोई पश्चगामी शून्य जिसके बाद संख्या बिंदु को प्रदर्शन मान में दिखाया जाना चाहिए."
++msgstr ""
++"बताता है कि कोई पश्चगामी शून्य जिसके बाद संख्या बिंदु को प्रदर्शन मान में दिखाया जाना "
++"चाहिए."
+ 
+ #: ../data/gcalctool.schemas.in.h:4
+ msgid "Indicates whether the memory register window is initially displayed."
+@@ -1609,27 +1633,22 @@
+ msgstr "बताता है कि क्या हजार विभाजक को बड़ी संख्या में दिखाया गया है."
+ 
+ #: ../data/gcalctool.schemas.in.h:6
+-#| msgid "Mod"
+ msgid "Mode"
+ msgstr "मोड"
+ 
+ #: ../data/gcalctool.schemas.in.h:7
+-#| msgid "Numeric 0"
+ msgid "Numeric Base"
+ msgstr "सांख्यिक बेस"
+ 
+ #: ../data/gcalctool.schemas.in.h:8
+-#| msgid "Show memory registers"
+ msgid "Show Registers"
+ msgstr "रजिस्टर्स दिखाएँ"
+ 
+ #: ../data/gcalctool.schemas.in.h:9
+-#| msgid "Show T_housands Separator"
+ msgid "Show Thousands Separator"
+ msgstr "हजार विभाजक दिखाएँ"
+ 
+ #: ../data/gcalctool.schemas.in.h:10
+-#| msgid "Show _Trailing Zeroes"
+ msgid "Show Trailing Zeroes"
+ msgstr "ट्रैलिंग शून्य दिखाएँ"
+ 
+@@ -1638,24 +1657,24 @@
+ "The initial calculator mode. Valid values are \"BASIC\", \"FINANCIAL\", "
+ "\"LOGICAL\", \"SCIENTIFIC\" and \"PROGRAMMING\""
+ msgstr ""
+-"आरंभिक गणक विधि. वैध मान हैं \"BASIC\", \"FINANCIAL\", "
+-"\"LOGICAL\", \"SCIENTIFIC\" और \"PROGRAMMING\""
++"आरंभिक गणक विधि. वैध मान हैं \"BASIC\", \"FINANCIAL\", \"LOGICAL\", \"SCIENTIFIC"
++"\" और \"PROGRAMMING\""
+ 
+ #: ../data/gcalctool.schemas.in.h:12
+ msgid ""
+ "The initial display mode. Valid values are \"ENG\" (engineering), \"FIX"
+ "\" (fixed-point) and \"SCI\" (scientific)"
+ msgstr ""
+-"आरंभिक प्रदर्शन विधि. वैध मान है \"ENG\" (engineering), \"FIX"
+-"\" (fixed-point) और \"SCI\" (scientific)"
++"आरंभिक प्रदर्शन विधि. वैध मान है \"ENG\" (engineering), \"FIX\" (fixed-point) और "
++"\"SCI\" (scientific)"
+ 
+ #: ../data/gcalctool.schemas.in.h:13
+ msgid ""
+ "The initial trigonometric type. Valid values are \"DEG\" (degrees), \"GRAD"
+ "\" (gradians) and \"RAD\" (radians)."
+ msgstr ""
+-"आरंभिक त्रिकोणमितीय प्रकार. वैध मान हैं \"DEG\" (degrees), \"GRAD"
+-"\" (gradians) और \"RAD\" (radians)."
++"आरंभिक त्रिकोणमितीय प्रकार. वैध मान हैं \"DEG\" (degrees), \"GRAD\" (gradians) और "
++"\"RAD\" (radians)."
+ 
+ #: ../data/gcalctool.schemas.in.h:14
+ msgid "The initial x-coordinate for the window"
+@@ -1669,7 +1688,9 @@
+ msgid ""
+ "The number of digits displayed after the numeric point. This value must be "
+ "in the range 0 to 9."
+-msgstr "किसी सांख्यिक बिंदु के बाद दिखाए गए अंको की संख्या. इस मान को 0 से 9 के परिसर में होना चाहिए."
++msgstr ""
++"किसी सांख्यिक बिंदु के बाद दिखाए गए अंको की संख्या. इस मान को 0 से 9 के परिसर में होना "
++"चाहिए."
+ 
+ #: ../data/gcalctool.schemas.in.h:17
+ msgid "The number of pixels to place the window from the left of the screen."
+@@ -1687,12 +1708,9 @@
+ msgid ""
+ "The size of the words used in bitwise operations. Valid values are 16, 32 "
+ "and 64."
+-msgstr ""
+-"बिटवाइज संक्रिया में प्रयुक्त शब्द का आकार. वैध मान हैं 16, 32 "
+-"और 64."
++msgstr "बिटवाइज संक्रिया में प्रयुक्त शब्द का आकार. वैध मान हैं 16, 32 और 64."
+ 
+ #: ../data/gcalctool.schemas.in.h:21
+-#| msgid "Set trigonometric type to degrees"
+ msgid "Trigonometric type"
+ msgstr "त्रिकोणमितीय प्रकार"
+ 
+@@ -1777,76 +1795,74 @@
+ msgid "%s: accuracy should be in the range 0-%d\n"
+ msgstr "%s: सटीक 0-%d के रेजं में होना चाहिये\n"
+ 
+-#: ../src/display.c:417
++#: ../src/display.c:416
+ msgid "No undo history"
+ msgstr "कोई वापस लेना इतिहास नहीं"
+ 
+-#: ../src/display.c:432
++#: ../src/display.c:431
+ msgid "No redo steps"
+ msgstr "कोई रिडू चरण नहीं"
+ 
+ #. Translators: This message is displayed in the status bar when an
+ #. invalid user-defined function is executed
+-#: ../src/functions.c:235
++#: ../src/functions.c:237
+ msgid "Malformed function"
+ msgstr "विरूपित प्रकार्य"
+ 
+ #. Translators: This message is displayed in the status bar when a bit
+ #. shift operation is performed and the display does not contain a number
+-#: ../src/functions.c:322
++#: ../src/functions.c:324
+ msgid "No sane value to do bitwise shift"
+ msgstr "बिटवाइज शिफ्ट के लिये कोई सेन मान नहीं"
+ 
+-#: ../src/functions.c:343 ../src/functions.c:398
++#: ../src/functions.c:343 ../src/functions.c:396
+ msgid "No sane value to convert"
+ msgstr "बदलने के लिये कोई सेन मान नहीं"
+ 
+-#: ../src/functions.c:366 ../src/functions.c:418
++#: ../src/functions.c:366 ../src/functions.c:416
+ msgid "No sane value to store"
+ msgstr "भंडारन के लिये कोई सेन मान नहीं"
+ 
+-#: ../src/functions.c:583
++#: ../src/functions.c:581
+ msgid "Invalid number for the current base"
+ msgstr "मौजूदा बेस के लिये अवैध संख्या"
+ 
+ #. Translators: Error displayed to user when they
+ #. * perform an invalid bitwise operation, e.g.
+ #. * 1 XOR -1
+-#: ../src/functions.c:590
+-#| msgid "Invalid bitwise operation parameter(s)"
++#: ../src/functions.c:588
+ msgid "Invalid bitwise operation"
+ msgstr "अवैध बिटवाइज संक्रिया"
+ 
+ #. Translators: Error displayed to user when they
+ #. * perform an invalid modulus operation, e.g.
+ #. * 6 MOD 1.2
+-#: ../src/functions.c:597
+-#| msgid "Invalid modulus operation parameter(s)"
++#: ../src/functions.c:595
+ msgid "Invalid modulus operation"
+ msgstr "अवैध मॉड्यूल संक्रिया"
+ 
+ #. Translators; Error displayd to user when they
+ #. * perform a bitwise operation on numbers greater
+ #. * than the current word
+-#: ../src/functions.c:604
++#: ../src/functions.c:602
+ msgid "Overflow. Try a bigger word size"
+ msgstr "अतिप्रवाह. किसी बड़े शब्द आकार आजमाएँ"
+ 
+ #. Translators; Error displayd to user when they
+ #. * an unknown variable is entered
+-#: ../src/functions.c:610
++#: ../src/functions.c:608
+ msgid "Unknown variable"
+ msgstr "अज्ञात चर"
+ 
+ #. Translators; Error displayd to user when they
+ #. * an unknown function is entered
+-#: ../src/functions.c:616
++#: ../src/functions.c:614
+ msgid "Unknown function"
+ msgstr "अज्ञात प्रकार्य"
+ 
+ #. Translators: Error displayed to user when they
+ #. * enter an invalid calculation
+-#: ../src/functions.c:626
++#: ../src/functions.c:624
+ msgid "Malformed expression"
+ msgstr "विरूपित अभिव्यक्ति"
+ 
+@@ -1901,16 +1917,13 @@
+ msgstr "गणक [%s] - प्रोग्रामिंग"
+ 
+ #. Translators: Title of the error dialog when unable to load the UI files
+-#: ../src/gtk.c:572
++#: ../src/gtk.c:574
+ msgid "Error loading user interface"
+ msgstr "उपयोक्ता अंतरफलक लोड में त्रुटि"
+ 
+ #. Translators: Description in UI error dialog when unable to load the UI files. %s is replaced with the error message provided by GTK+
+-#: ../src/gtk.c:575
++#: ../src/gtk.c:577
+ #, c-format
+-#| msgid ""
+-#| "The user interface file %s is missing or unable to be loaded. Please "
+-#| "check your installation."
+ msgid ""
+ "A required file is missing or damaged, please check your installation.\n"
+ "\n"
+@@ -1921,13 +1934,13 @@
+ "%s"
+ 
+ #. Translators: Accuracy Popup: Menu item to show the accuracy dialog. %d is replaced with the current accuracy.
+-#: ../src/gtk.c:672
++#: ../src/gtk.c:674
+ #, c-format
+ msgid "_Other (%d) ..."
+ msgstr "अन्य (%d) ..."
+ 
+ #. Translators: Tooltip for accuracy button
+-#: ../src/gtk.c:678
++#: ../src/gtk.c:680
+ #, c-format
+ msgid "Set accuracy from 0 to %d numeric place. [A]"
+ msgid_plural "Set accuracy from 0 to %d numeric places. [A]"
+@@ -1935,244 +1948,211 @@
+ msgstr[1] "0 से %d अंक स्थानों तक शुद्धता सेट करें. [A]"
+ 
+ #. Translators: The sine button
+-#: ../src/gtk.c:703
+-#| msgid "Sin"
++#: ../src/gtk.c:705
+ msgid "sin"
+ msgstr "sin"
+ 
+ #. Translators: The inverse sine button
+-#: ../src/gtk.c:705
+-#| msgid "Sin<sup>-1</sup>"
++#: ../src/gtk.c:707
+ msgid "sin<sup>−1</sup>"
+ msgstr "sin<sup>−1</sup>"
+ 
+ #. Translators: The hyperbolic sine button
+-#: ../src/gtk.c:707
+-#| msgid "Sinh"
++#: ../src/gtk.c:709
+ msgid "sinh"
+ msgstr "sinh"
+ 
+ #. Translators: The inverse hyperbolic sine button
+-#: ../src/gtk.c:709
+-#| msgid "Sinh<sup>-1</sup>"
++#: ../src/gtk.c:711
+ msgid "sinh<sup>−1</sup>"
+ msgstr "sinh<sup>−1</sup>"
+ 
+ #. Translators: The sine tooltip
+-#: ../src/gtk.c:712
++#: ../src/gtk.c:714
+ msgid "Sine [k]"
+ msgstr "साइन [k]"
+ 
+ #. Translators: The inverse sine tooltip
+-#: ../src/gtk.c:714
++#: ../src/gtk.c:716
+ msgid "Inverse Sine [K]"
+ msgstr "उलटा साइन [K]"
+ 
+ #. Translators: The hyperbolic sine tooltip
+-#: ../src/gtk.c:716
++#: ../src/gtk.c:718
+ msgid "Hyperbolic Sine [k]"
+ msgstr "परावलीय साइन [k]"
+ 
+ #. Translators: The hyperbolic inverse sine tooltip
+-#: ../src/gtk.c:718
++#: ../src/gtk.c:720
+ msgid "Hyperbolic Inverse Sine [K]"
+ msgstr "परावलीय उलटा साइन [K]"
+ 
+ #. Translators: The cosine button
+-#: ../src/gtk.c:722
+-#| msgid "Cos"
++#: ../src/gtk.c:724
+ msgid "cos"
+ msgstr "cos"
+ 
+ #. Translators: The inverse cosine button
+-#: ../src/gtk.c:724
+-#| msgid "Cos<sup>-1</sup>"
++#: ../src/gtk.c:726
+ msgid "cos<sup>−1</sup>"
+ msgstr "cos<sup>−1</sup>"
+ 
+ #. Translators: The hyperbolic cosine button
+-#: ../src/gtk.c:726
+-#| msgid "Cosh"
++#: ../src/gtk.c:728
+ msgid "cosh"
+ msgstr "cosh"
+ 
+ #. Translators: The inverse hyperbolic cosine button
+-#: ../src/gtk.c:728
+-#| msgid "Cosh<sup>-1</sup>"
++#: ../src/gtk.c:730
+ msgid "cosh<sup>−1</sup>"
+ msgstr "cosh<sup>−1</sup>"
+ 
+ #. Translators: The cosine tooltip
+-#: ../src/gtk.c:731
++#: ../src/gtk.c:733
+ msgid "Cosine [j]"
+ msgstr "कोसाइन [j]"
+ 
+ #. Translators: The inverse cosine tooltip
+-#: ../src/gtk.c:733
++#: ../src/gtk.c:735
+ msgid "Inverse Cosine [J]"
+ msgstr "विलोम कोसाइन [J]"
+ 
+ #. Translators: The hyperbolic cosine tooltip
+-#: ../src/gtk.c:735
++#: ../src/gtk.c:737
+ msgid "Hyperbolic Cosine [j]"
+ msgstr "परावलीय कोसाइन [j]"
+ 
+ #. Translators: The hyperbolic inverse cosine tooltip
+-#: ../src/gtk.c:737
++#: ../src/gtk.c:739
+ msgid "Hyperbolic Inverse Cosine [J]"
+ msgstr "परावलीय विलोम कोसाइन [J]"
+ 
+ #. Translators: The tangent button
+-#: ../src/gtk.c:741
+-#| msgid "Tan"
++#: ../src/gtk.c:743
+ msgid "tan"
+ msgstr "tan"
+ 
+ #. Translators: The inverse tangent button
+-#: ../src/gtk.c:743
+-#| msgid "Tan<sup>-1</sup>"
++#: ../src/gtk.c:745
+ msgid "tan<sup>−1</sup>"
+ msgstr "tan<sup>−1</sup>"
+ 
+ #. Translators: The hyperbolic tangent button
+-#: ../src/gtk.c:745
+-#| msgid "Tanh"
++#: ../src/gtk.c:747
+ msgid "tanh"
+ msgstr "tanh"
+ 
+ #. Translators: The inverse hyperbolic tangent button
+-#: ../src/gtk.c:747
+-#| msgid "Tanh<sup>-1</sup>"
++#: ../src/gtk.c:749
+ msgid "tanh<sup>−1</sup>"
+ msgstr "tanh<sup>−1</sup>"
+ 
+ #. Translators: The tangent tooltip
+-#: ../src/gtk.c:750
++#: ../src/gtk.c:752
+ msgid "Tangent [w]"
+ msgstr "स्पर्शज्या [w]"
+ 
+ #. Translators: The inverse tangent tooltip
+-#: ../src/gtk.c:752
++#: ../src/gtk.c:754
+ msgid "Inverse Tangent [W]"
+ msgstr "विलोम स्पर्शज्या [W]"
+ 
+ #. Translators: The hyperbolic tangent tooltip
+-#: ../src/gtk.c:754
++#: ../src/gtk.c:756
+ msgid "Hyperbolic Tangent [w]"
+ msgstr "परावलीय स्पर्शज्या [w]"
+ 
+ #. Translators: The hyperbolic inverse tangent tooltip
+-#: ../src/gtk.c:756
++#: ../src/gtk.c:758
+ msgid "Hyperbolic Inverse Tangent [W]"
+ msgstr "परावलीय विलोम स्पर्शज्या [W]"
+ 
+ #. Translators: The natural logaritm button
+-#: ../src/gtk.c:761
+-#| msgid "Sln"
++#: ../src/gtk.c:763
+ msgid "ln"
+ msgstr "ln"
+ 
+ #. Translators: The e to the power of x button
+-#: ../src/gtk.c:763
++#: ../src/gtk.c:765
+ msgid "e<sup><i>x</i></sup>"
+ msgstr "e<sup><i>x</i></sup>"
+ 
+ #. Translators: Tooltip for the natural log button
+-#: ../src/gtk.c:766
+-#| msgid "Natural log [n]"
++#: ../src/gtk.c:768
+ msgid "Natural logarithm [n]"
+ msgstr "प्राकृतिक लॉग [n]"
+ 
+ #. Translators: Tooltip for the e to the power of x button
+-#: ../src/gtk.c:768
++#: ../src/gtk.c:770
+ msgid "e to the power of the displayed value [N]"
+ msgstr "प्रदर्शित मान के ऊपर e का घात [N]"
+ 
+ #. Translators: The 10-based logaritm button
+-#: ../src/gtk.c:773
+-#| msgid "Log"
++#: ../src/gtk.c:775
+ msgid "log"
+ msgstr "log"
+ 
+ #. Translators: The 10 to the power of x button
+-#: ../src/gtk.c:775
++#: ../src/gtk.c:777
+ msgid "10<sup><i>x</i></sup>"
+ msgstr "10<sup><i>x</i></sup>"
+ 
+ #. Translators: Tooltip for the log base 10 button
+-#: ../src/gtk.c:778
+-#| msgid "Base 10 log [g]"
++#: ../src/gtk.c:780
+ msgid "Base 10 logarithm [g]"
+ msgstr "बेस 10 लॉग [g]"
+ 
+ #. Translators: Tooltip for the 10 to the power of x button
+-#: ../src/gtk.c:780
++#: ../src/gtk.c:782
+ msgid "10 to the power of displayed value [G]"
+ msgstr "प्रदर्शित मान के ऊपर 10 का घात [G]"
+ 
+ #. Translators: The 2-based logaritm button
+-#: ../src/gtk.c:785
+-#| msgid "Log<sub>2</sub>"
++#: ../src/gtk.c:787
+ msgid "log<sub>2</sub>"
+ msgstr "log<sub>2</sub>"
+ 
+ #. Translators: The 2 to the power of x button
+-#: ../src/gtk.c:787
++#: ../src/gtk.c:789
+ msgid "2<sup><i>x</i></sup>"
+ msgstr "2<sup><i>x</i></sup>"
+ 
+ #. Translators: Tooltip for the log base 2 button
+-#: ../src/gtk.c:790
+-#| msgid "Base 2 log [h]"
++#: ../src/gtk.c:792
+ msgid "Base 2 logarithm [h]"
+ msgstr "बेस 2 लॉग [h]"
+ 
+ #. Translators: Tooltip for the 2 to the power of x button
+-#: ../src/gtk.c:792
++#: ../src/gtk.c:794
+ msgid "2 to the power of the displayed value [H]"
+ msgstr "2 के ऊपर प्रदर्शित मान घात [H]"
+ 
+ #. Translators: The x to the power of y button
+-#: ../src/gtk.c:797
++#: ../src/gtk.c:799
+ msgid "x<sup><i>y</i></sup>"
+ msgstr "x<sup><i>y</i></sup>"
+ 
+ #. Translators: The x to the power of reciprocal y button
+-#: ../src/gtk.c:799
++#: ../src/gtk.c:801
+ msgid "x<sup>1/<i>y</i></sup>"
+ msgstr "x<sup>1/<i>y</i></sup>"
+ 
+ #. Translators: Tooltip for the x to the power of y button
+-#: ../src/gtk.c:802
++#: ../src/gtk.c:804
+ msgid "Raise displayed value to the power of y [o]"
+ msgstr "y [o] के ऊपर प्रदर्शित मान का घात बढ़ाएँ"
+ 
+ #. Translators: Tooltip for the x to the power of reciprocal y button
+-#: ../src/gtk.c:804
++#: ../src/gtk.c:806
+ msgid "Raise displayed value to the power of reciprocal y [O]"
+ msgstr "Raise displayed value to the power of reciprocal y [O]"
+ 
+ #. Translators: The translator credits. Please translate this with your name(s).
+-#: ../src/gtk.c:1365
++#: ../src/gtk.c:1395
+ msgid "translator-credits"
+ msgstr "राजेश रंजन (rranajn@redhat.com, rajeshkajha@yahoo.com)"
+ 
+-#: ../src/gtk.c:1369
+-#| msgid ""
+-#| "Gcalctool is free software; you can redistribute it and/or modify\n"
+-#| "it under the terms of the GNU General Public License as published by\n"
+-#| "the Free Software Foundation; either version 2 of the License, or\n"
+-#| "(at your option) any later version.\n"
+-#| "\n"
+-#| "Gcalctool is distributed in the hope that it will be useful,\n"
+-#| "but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+-#| "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+-#| "GNU General Public License for more details.\n"
+-#| "\n"
+-#| "You should have received a copy of the GNU General Public License\n"
+-#| "along with Gcalctool; if not, write to the Free Software Foundation, "
+-#| "Inc.,\n"
+-#| "51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA\n"
++#: ../src/gtk.c:1399
+ msgid ""
+ "Gcalctool is free software; you can redistribute it and/or modify\n"
+ "it under the terms of the GNU General Public License as published by\n"
+@@ -2203,60 +2183,60 @@
+ "51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA"
+ 
+ #. Translators: Program name in the about dialog
+-#: ../src/gtk.c:1385
++#: ../src/gtk.c:1415
+ msgid "Gcalctool"
+ msgstr "जिकेल्कटूल"
+ 
+ #. Translators: Copyright notice in the about dialog
+-#: ../src/gtk.c:1388
++#: ../src/gtk.c:1418
+ msgid "© 1986-2008 The Gcalctool authors"
+ msgstr "© 1986-2008 The Gcalctool authors"
+ 
+ #. Translators: Short description in the about dialog
+-#: ../src/gtk.c:1391
++#: ../src/gtk.c:1421
+ msgid "Calculator with financial and scientific modes."
+ msgstr "वित्त और वैज्ञानिक मोड वाला गणक"
+ 
+-#: ../src/gtk.c:1549
++#: ../src/gtk.c:1579
+ msgid "Unable to open help file"
+ msgstr "मदद फाइल खोलने में त्रुटि"
+ 
+ #. Translators: R is the short form of register used inter alia in popup menus
+-#: ../src/gtk.c:1956
++#: ../src/gtk.c:1990
+ msgid "R"
+ msgstr "R"
+ 
+ #. FIXME: WTF?
+-#: ../src/gtk.c:2319
++#: ../src/gtk.c:2371
+ msgid "Paste"
+ msgstr "चिपकाएँ"
+ 
+ #. Translators: Edit Constants Dialog: Constant number column title
+ #. Translators: Edit Functions Dialog: Function number column title
+-#: ../src/gtk.c:2679 ../src/gtk.c:2696
++#: ../src/gtk.c:2739 ../src/gtk.c:2756
+ msgid "No."
+ msgstr "नहीं"
+ 
+ #. Translators: Edit Constants Dialog: Constant value column title
+ #. Translators: Edit Functions Dialog: Function value column title
+-#: ../src/gtk.c:2681 ../src/gtk.c:2699
++#: ../src/gtk.c:2741 ../src/gtk.c:2759
+ msgid "Value"
+ msgstr "मान"
+ 
+ #. Translators: Edit Constants Dialog: Constant description column title
+ #. Translators: Edit Functions Dialog: Function description column title
+-#: ../src/gtk.c:2683 ../src/gtk.c:2702
++#: ../src/gtk.c:2743 ../src/gtk.c:2762
+ msgid "Description"
+ msgstr "वर्णन"
+ 
+ #. Set default accuracy menu item
+ #. Translators: Accuracy Popup: Menu item to reset the accuracy to the default value. %d is replaced with the default value.
+-#: ../src/gtk.c:2826
++#: ../src/gtk.c:2886
+ #, c-format
+ msgid "Reset to _Default (%d)"
+ msgstr "मूलभूत पर सेट करें (_D) (%d)"
+ 
+-#: ../src/mp.c:1467
++#: ../src/mp.c:1469
+ msgid "Negative X and non-integer Y not supported"
+ msgstr "Negative X गैर पूर्णांक Y समर्थित नहीं है"
+ 
+diff -urN a/gcalctool-5.28.2/po/pt_BR.po b/gcalctool-5.28.2/po/pt_BR.po
+--- a/gcalctool-5.28.2/po/pt_BR.po	2010-08-05 17:16:33.594134897 +0530
++++ b/gcalctool-5.28.2/po/pt_BR.po	2010-08-05 17:20:40.822139759 +0530
+@@ -15,9 +15,8 @@
+ msgid ""
+ msgstr ""
+ "Project-Id-Version: gcalctool\n"
+-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+-"product=gcalctool&component=general\n"
+-"POT-Creation-Date: 2009-08-13 00:59+0000\n"
++"Report-Msgid-Bugs-To: \n"
++"POT-Creation-Date: 2010-07-19 17:42+0530\n"
+ "PO-Revision-Date: 2009-07-22 09:14-0300\n"
+ "Last-Translator: Leonardo Ferreira Fontenelle <leonardof@gnome.org>\n"
+ "Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
+@@ -632,7 +631,7 @@
+ msgstr "Bsp"
+ 
+ #. Hexadecimal digit C button
+-#: ../data/gcalctool.ui.h:136 ../src/gtk.c:1700
++#: ../data/gcalctool.ui.h:136 ../src/gtk.c:1734
+ msgid "C"
+ msgstr "C"
+ 
+@@ -802,7 +801,7 @@
+ msgstr "Exp"
+ 
+ #. Hexadecimal digit F button
+-#: ../data/gcalctool.ui.h:192 ../src/gtk.c:1723
++#: ../data/gcalctool.ui.h:192 ../src/gtk.c:1757
+ msgid "F"
+ msgstr "F"
+ 
+@@ -1459,138 +1458,150 @@
+ msgid "_Calculator"
+ msgstr "_Calculadora"
+ 
++#: ../data/gcalctool.ui.h:398
++msgid "_Contents"
++msgstr "_Constantes"
++
+ #. Base 10 radio button
+-#: ../data/gcalctool.ui.h:399
++#: ../data/gcalctool.ui.h:400
+ msgid "_Dec"
+ msgstr "_Dec"
+ 
+ #. Edit menu
+-#: ../data/gcalctool.ui.h:401
++#: ../data/gcalctool.ui.h:402
+ msgid "_Edit"
+ msgstr "_Editar"
+ 
+ #. View|Financial menu item
+-#: ../data/gcalctool.ui.h:403
++#: ../data/gcalctool.ui.h:404
+ msgid "_Financial"
+ msgstr "_Financeira"
+ 
+ #. Fixed-point display radio button
+-#: ../data/gcalctool.ui.h:405
++#: ../data/gcalctool.ui.h:406
+ msgid "_Fix"
+ msgstr "_Fix"
+ 
+ #. Help menu
+-#: ../data/gcalctool.ui.h:407
++#: ../data/gcalctool.ui.h:408
+ msgid "_Help"
+ msgstr "Aj_uda"
+ 
+ #. Insert ASCII dialog: Button to insert selected character
+-#: ../data/gcalctool.ui.h:409
++#: ../data/gcalctool.ui.h:410
+ msgid "_Insert"
+ msgstr "_Inserir"
+ 
+ #. Edit|Insert ASCII value menu item
+-#: ../data/gcalctool.ui.h:411
++#: ../data/gcalctool.ui.h:412
+ msgid "_Insert ASCII value..."
+ msgstr "_Inserir Valor ASCII..."
+ 
+ #. Inverse check box
+-#: ../data/gcalctool.ui.h:413
++#: ../data/gcalctool.ui.h:414
+ msgid "_Inv"
+ msgstr "_Inv"
+ 
+ #. View|Memory Registers menu item
+-#: ../data/gcalctool.ui.h:415
++#: ../data/gcalctool.ui.h:416
+ msgid "_Memory Registers"
+ msgstr "_Registradores de Memória"
+ 
+ #. Base 8 radio button
+-#: ../data/gcalctool.ui.h:417
++#: ../data/gcalctool.ui.h:418
+ msgid "_Oct"
+ msgstr "_Oct"
+ 
+ #. View|Programming menu item
+-#: ../data/gcalctool.ui.h:419
++#: ../data/gcalctool.ui.h:420
+ msgid "_Programming"
+ msgstr "_Programável"
+ 
+ #. Radian radio button
+-#: ../data/gcalctool.ui.h:421
++#: ../data/gcalctool.ui.h:422
+ msgid "_Radians"
+ msgstr "_Radianos"
+ 
++#: ../data/gcalctool.ui.h:423
++msgid "_Redo"
++msgstr "_Refazer"
++
+ # Colisão de tecla de acesso, com "_Calculadora".
+ #. Scientific display radio button
+-#: ../data/gcalctool.ui.h:423
++#: ../data/gcalctool.ui.h:425
+ msgid "_Sci"
+ msgstr "_Cie"
+ 
+ #. View|Scientific menu item
+-#: ../data/gcalctool.ui.h:425
++#: ../data/gcalctool.ui.h:427
+ msgid "_Scientific"
+ msgstr "_Científica"
+ 
+ #. Set Precision Dialog: Button to apply settings
+-#: ../data/gcalctool.ui.h:427
++#: ../data/gcalctool.ui.h:429
+ msgid "_Set"
+ msgstr "_Definir"
+ 
++#: ../data/gcalctool.ui.h:430
++msgid "_Undo"
++msgstr "Desfa_zer"
++
+ #. View menu
+-#: ../data/gcalctool.ui.h:429
++#: ../data/gcalctool.ui.h:432
+ msgid "_View"
+ msgstr "_Ver"
+ 
+ #. This is accessible name for memory register 0.  It is spoken by screen readers such as Orca, to help people who are blind or have low vision.
+-#: ../data/gcalctool.ui.h:431
++#: ../data/gcalctool.ui.h:434
+ msgid "register 0"
+ msgstr "registro 0"
+ 
+ #. This is accessible name for memory register 1.  It is spoken by screen readers such as Orca, to help people who are blind or have low vision.
+-#: ../data/gcalctool.ui.h:433
++#: ../data/gcalctool.ui.h:436
+ msgid "register 1"
+ msgstr "registro 1"
+ 
+ #. This is accessible name for memory register 2.  It is spoken by screen readers such as Orca, to help people who are blind or have low vision.
+-#: ../data/gcalctool.ui.h:435
++#: ../data/gcalctool.ui.h:438
+ msgid "register 2"
+ msgstr "registro 2"
+ 
+ #. This is accessible name for memory register 3.  It is spoken by screen readers such as Orca, to help people who are blind or have low vision.
+-#: ../data/gcalctool.ui.h:437
++#: ../data/gcalctool.ui.h:440
+ msgid "register 3"
+ msgstr "registro 3"
+ 
+ #. This is accessible name for memory register 4.  It is spoken by screen readers such as Orca, to help people who are blind or have low vision.
+-#: ../data/gcalctool.ui.h:439
++#: ../data/gcalctool.ui.h:442
+ msgid "register 4"
+ msgstr "registro 4"
+ 
+ #. This is accessible name for memory register 5.  It is spoken by screen readers such as Orca, to help people who are blind or have low vision.
+-#: ../data/gcalctool.ui.h:441
++#: ../data/gcalctool.ui.h:444
+ msgid "register 5"
+ msgstr "registro 5"
+ 
+ #. This is accessible name for memory register 6.  It is spoken by screen readers such as Orca, to help people who are blind or have low vision.
+-#: ../data/gcalctool.ui.h:443
++#: ../data/gcalctool.ui.h:446
+ msgid "register 6"
+ msgstr "registro 6"
+ 
+ #. This is accessible name for memory register 7.  It is spoken by screen readers such as Orca, to help people who are blind or have low vision.
+-#: ../data/gcalctool.ui.h:445
++#: ../data/gcalctool.ui.h:448
+ msgid "register 7"
+ msgstr "registro 7"
+ 
+ #. This is accessible name for memory register 8.  It is spoken by screen readers such as Orca, to help people who are blind or have low vision.
+-#: ../data/gcalctool.ui.h:447
++#: ../data/gcalctool.ui.h:450
+ msgid "register 8"
+ msgstr "registro 8"
+ 
+ #. This is accessible name for memory register 9.  It is spoken by screen readers such as Orca, to help people who are blind or have low vision.
+-#: ../data/gcalctool.ui.h:449
++#: ../data/gcalctool.ui.h:452
+ msgid "register 9"
+ msgstr "registro 9"
+ 
+-#: ../data/gcalctool.ui.h:450
++#: ../data/gcalctool.ui.h:453
+ msgid "x2"
+ msgstr "x2"
+ 
+@@ -1793,74 +1804,74 @@
+ msgid "%s: accuracy should be in the range 0-%d\n"
+ msgstr "%s: a precisão deveria estar no intervalo 0-%d\n"
+ 
+-#: ../src/display.c:417
++#: ../src/display.c:416
+ msgid "No undo history"
+ msgstr "Sem histórico para desfazer"
+ 
+-#: ../src/display.c:432
++#: ../src/display.c:431
+ msgid "No redo steps"
+ msgstr "Sem passos para refazer"
+ 
+ #. Translators: This message is displayed in the status bar when an
+ #. invalid user-defined function is executed
+-#: ../src/functions.c:235
++#: ../src/functions.c:237
+ msgid "Malformed function"
+ msgstr "Função mal formada"
+ 
+ #. Translators: This message is displayed in the status bar when a bit
+ #. shift operation is performed and the display does not contain a number
+-#: ../src/functions.c:322
++#: ../src/functions.c:324
+ msgid "No sane value to do bitwise shift"
+ msgstr "Nenhum valor sano para efetuar alternação bit a bit"
+ 
+-#: ../src/functions.c:343 ../src/functions.c:398
++#: ../src/functions.c:343 ../src/functions.c:396
+ msgid "No sane value to convert"
+ msgstr "Nenhum valor sano para converter"
+ 
+-#: ../src/functions.c:366 ../src/functions.c:418
++#: ../src/functions.c:366 ../src/functions.c:416
+ msgid "No sane value to store"
+ msgstr "Nenhum valor sano para armazenar"
+ 
+-#: ../src/functions.c:583
++#: ../src/functions.c:581
+ msgid "Invalid number for the current base"
+ msgstr "Número inválido para a base atual"
+ 
+ #. Translators: Error displayed to user when they
+ #. * perform an invalid bitwise operation, e.g.
+ #. * 1 XOR -1
+-#: ../src/functions.c:590
++#: ../src/functions.c:588
+ msgid "Invalid bitwise operation"
+ msgstr "Operação bit a bit inválida"
+ 
+ #. Translators: Error displayed to user when they
+ #. * perform an invalid modulus operation, e.g.
+ #. * 6 MOD 1.2
+-#: ../src/functions.c:597
++#: ../src/functions.c:595
+ msgid "Invalid modulus operation"
+ msgstr "Operação módulo inválida"
+ 
+ #. Translators; Error displayd to user when they
+ #. * perform a bitwise operation on numbers greater
+ #. * than the current word
+-#: ../src/functions.c:604
++#: ../src/functions.c:602
+ msgid "Overflow. Try a bigger word size"
+ msgstr "Estouro de capacidade. Tente um tamanho maior de palavra"
+ 
+ #. Translators; Error displayd to user when they
+ #. * an unknown variable is entered
+-#: ../src/functions.c:610
++#: ../src/functions.c:608
+ msgid "Unknown variable"
+ msgstr "Variável desconhecida"
+ 
+ #. Translators; Error displayd to user when they
+ #. * an unknown function is entered
+-#: ../src/functions.c:616
++#: ../src/functions.c:614
+ msgid "Unknown function"
+ msgstr "Função desconhecida"
+ 
+ #. Translators: Error displayed to user when they
+ #. * enter an invalid calculation
+-#: ../src/functions.c:626
++#: ../src/functions.c:624
+ msgid "Malformed expression"
+ msgstr "Expressão mal formada"
+ 
+@@ -1915,12 +1926,12 @@
+ msgstr "Calculadora [%s] - Programável"
+ 
+ #. Translators: Title of the error dialog when unable to load the UI files
+-#: ../src/gtk.c:572
++#: ../src/gtk.c:574
+ msgid "Error loading user interface"
+ msgstr "Erro ao carregar a interface de usuário"
+ 
+ #. Translators: Description in UI error dialog when unable to load the UI files. %s is replaced with the error message provided by GTK+
+-#: ../src/gtk.c:575
++#: ../src/gtk.c:577
+ #, c-format
+ msgid ""
+ "A required file is missing or damaged, please check your installation.\n"
+@@ -1933,13 +1944,13 @@
+ "%s"
+ 
+ #. Translators: Accuracy Popup: Menu item to show the accuracy dialog. %d is replaced with the current accuracy.
+-#: ../src/gtk.c:672
++#: ../src/gtk.c:674
+ #, c-format
+ msgid "_Other (%d) ..."
+ msgstr "_Outro (%d) ..."
+ 
+ #. Translators: Tooltip for accuracy button
+-#: ../src/gtk.c:678
++#: ../src/gtk.c:680
+ #, c-format
+ msgid "Set accuracy from 0 to %d numeric place. [A]"
+ msgid_plural "Set accuracy from 0 to %d numeric places. [A]"
+@@ -1947,207 +1958,207 @@
+ msgstr[1] "Define a precisão de 0 a %d casas decimais. [A]"
+ 
+ #. Translators: The sine button
+-#: ../src/gtk.c:703
++#: ../src/gtk.c:705
+ msgid "sin"
+ msgstr "sen"
+ 
+ #. Translators: The inverse sine button
+-#: ../src/gtk.c:705
++#: ../src/gtk.c:707
+ msgid "sin<sup>−1</sup>"
+ msgstr "sen<sup>-1</sup>"
+ 
+ #. Translators: The hyperbolic sine button
+-#: ../src/gtk.c:707
++#: ../src/gtk.c:709
+ msgid "sinh"
+ msgstr "senh"
+ 
+ #. Translators: The inverse hyperbolic sine button
+-#: ../src/gtk.c:709
++#: ../src/gtk.c:711
+ msgid "sinh<sup>−1</sup>"
+ msgstr "senh<sup>-1</sup>"
+ 
+ #. Translators: The sine tooltip
+-#: ../src/gtk.c:712
++#: ../src/gtk.c:714
+ msgid "Sine [k]"
+ msgstr "Seno [k]"
+ 
+ #. Translators: The inverse sine tooltip
+-#: ../src/gtk.c:714
++#: ../src/gtk.c:716
+ msgid "Inverse Sine [K]"
+ msgstr "Inversa do Seno [K]"
+ 
+ #. Translators: The hyperbolic sine tooltip
+-#: ../src/gtk.c:716
++#: ../src/gtk.c:718
+ msgid "Hyperbolic Sine [k]"
+ msgstr "Seno Hiperbólico [k]"
+ 
+ #. Translators: The hyperbolic inverse sine tooltip
+-#: ../src/gtk.c:718
++#: ../src/gtk.c:720
+ msgid "Hyperbolic Inverse Sine [K]"
+ msgstr "Inversa do Seno Hiperbólico [K]"
+ 
+ #. Translators: The cosine button
+-#: ../src/gtk.c:722
++#: ../src/gtk.c:724
+ msgid "cos"
+ msgstr "cos"
+ 
+ #. Translators: The inverse cosine button
+-#: ../src/gtk.c:724
++#: ../src/gtk.c:726
+ msgid "cos<sup>−1</sup>"
+ msgstr "cos<sup>-1</sup>"
+ 
+ #. Translators: The hyperbolic cosine button
+-#: ../src/gtk.c:726
++#: ../src/gtk.c:728
+ msgid "cosh"
+ msgstr "cosh"
+ 
+ #. Translators: The inverse hyperbolic cosine button
+-#: ../src/gtk.c:728
++#: ../src/gtk.c:730
+ msgid "cosh<sup>−1</sup>"
+ msgstr "cosh<sup>-1</sup>"
+ 
+ #. Translators: The cosine tooltip
+-#: ../src/gtk.c:731
++#: ../src/gtk.c:733
+ msgid "Cosine [j]"
+ msgstr "Cosseno [j]"
+ 
+ #. Translators: The inverse cosine tooltip
+-#: ../src/gtk.c:733
++#: ../src/gtk.c:735
+ msgid "Inverse Cosine [J]"
+ msgstr "Inversa do Cosseno [J]"
+ 
+ #. Translators: The hyperbolic cosine tooltip
+-#: ../src/gtk.c:735
++#: ../src/gtk.c:737
+ msgid "Hyperbolic Cosine [j]"
+ msgstr "Cosseno Hiperbólico [j]"
+ 
+ #. Translators: The hyperbolic inverse cosine tooltip
+-#: ../src/gtk.c:737
++#: ../src/gtk.c:739
+ msgid "Hyperbolic Inverse Cosine [J]"
+ msgstr "Inversa do Cosseno Hiperbólico [J]"
+ 
+ #. Translators: The tangent button
+-#: ../src/gtk.c:741
++#: ../src/gtk.c:743
+ msgid "tan"
+ msgstr "tan"
+ 
+ #. Translators: The inverse tangent button
+-#: ../src/gtk.c:743
++#: ../src/gtk.c:745
+ msgid "tan<sup>−1</sup>"
+ msgstr "tan<sup>-1</sup>"
+ 
+ #. Translators: The hyperbolic tangent button
+-#: ../src/gtk.c:745
++#: ../src/gtk.c:747
+ msgid "tanh"
+ msgstr "tanh"
+ 
+ #. Translators: The inverse hyperbolic tangent button
+-#: ../src/gtk.c:747
++#: ../src/gtk.c:749
+ msgid "tanh<sup>−1</sup>"
+ msgstr "tanh<sup>-1</sup>"
+ 
+ #. Translators: The tangent tooltip
+-#: ../src/gtk.c:750
++#: ../src/gtk.c:752
+ msgid "Tangent [w]"
+ msgstr "Tangente [w]"
+ 
+ #. Translators: The inverse tangent tooltip
+-#: ../src/gtk.c:752
++#: ../src/gtk.c:754
+ msgid "Inverse Tangent [W]"
+ msgstr "Inversa da Tangente [W]"
+ 
+ #. Translators: The hyperbolic tangent tooltip
+-#: ../src/gtk.c:754
++#: ../src/gtk.c:756
+ msgid "Hyperbolic Tangent [w]"
+ msgstr "Tangente Hiperbólica [w]"
+ 
+ #. Translators: The hyperbolic inverse tangent tooltip
+-#: ../src/gtk.c:756
++#: ../src/gtk.c:758
+ msgid "Hyperbolic Inverse Tangent [W]"
+ msgstr "Inversa da Tangente Hiperbólica [W]"
+ 
+ #. Translators: The natural logaritm button
+-#: ../src/gtk.c:761
++#: ../src/gtk.c:763
+ msgid "ln"
+ msgstr "ln"
+ 
+ #. Translators: The e to the power of x button
+-#: ../src/gtk.c:763
++#: ../src/gtk.c:765
+ msgid "e<sup><i>x</i></sup>"
+ msgstr "e<sup><i>x</i></sup>"
+ 
+ #. Translators: Tooltip for the natural log button
+-#: ../src/gtk.c:766
++#: ../src/gtk.c:768
+ msgid "Natural logarithm [n]"
+ msgstr "Logaritmo natural [n]"
+ 
+ #. Translators: Tooltip for the e to the power of x button
+-#: ../src/gtk.c:768
++#: ../src/gtk.c:770
+ msgid "e to the power of the displayed value [N]"
+ msgstr "e elevado à potência do número exibido [N]"
+ 
+ #. Translators: The 10-based logaritm button
+-#: ../src/gtk.c:773
++#: ../src/gtk.c:775
+ msgid "log"
+ msgstr "log"
+ 
+ #. Translators: The 10 to the power of x button
+-#: ../src/gtk.c:775
++#: ../src/gtk.c:777
+ msgid "10<sup><i>x</i></sup>"
+ msgstr "10<sup><i>x</i></sup>"
+ 
+ #. Translators: Tooltip for the log base 10 button
+-#: ../src/gtk.c:778
++#: ../src/gtk.c:780
+ msgid "Base 10 logarithm [g]"
+ msgstr "Logaritmo base 10 [g]"
+ 
+ #. Translators: Tooltip for the 10 to the power of x button
+-#: ../src/gtk.c:780
++#: ../src/gtk.c:782
+ msgid "10 to the power of displayed value [G]"
+ msgstr "10 elevado à potência do número exibido [G]"
+ 
+ #. Translators: The 2-based logaritm button
+-#: ../src/gtk.c:785
++#: ../src/gtk.c:787
+ msgid "log<sub>2</sub>"
+ msgstr "log<sub>2</sub>"
+ 
+ #. Translators: The 2 to the power of x button
+-#: ../src/gtk.c:787
++#: ../src/gtk.c:789
+ msgid "2<sup><i>x</i></sup>"
+ msgstr "2<sup><i>x</i></sup>"
+ 
+ #. Translators: Tooltip for the log base 2 button
+-#: ../src/gtk.c:790
++#: ../src/gtk.c:792
+ msgid "Base 2 logarithm [h]"
+ msgstr "Logaritmo base 2 [h]"
+ 
+ #. Translators: Tooltip for the 2 to the power of x button
+-#: ../src/gtk.c:792
++#: ../src/gtk.c:794
+ msgid "2 to the power of the displayed value [H]"
+ msgstr "2 elevado à potência do número exibido [H]"
+ 
+ #. Translators: The x to the power of y button
+-#: ../src/gtk.c:797
++#: ../src/gtk.c:799
+ msgid "x<sup><i>y</i></sup>"
+ msgstr "x<sup><i>y</i></sup>"
+ 
+ #. Translators: The x to the power of reciprocal y button
+-#: ../src/gtk.c:799
++#: ../src/gtk.c:801
+ msgid "x<sup>1/<i>y</i></sup>"
+ msgstr "x<sup>1/<i>y</i></sup>"
+ 
+ #. Translators: Tooltip for the x to the power of y button
+-#: ../src/gtk.c:802
++#: ../src/gtk.c:804
+ msgid "Raise displayed value to the power of y [o]"
+ msgstr "Eleva o valor exibido à potência de y [o]"
+ 
+ #. Translators: Tooltip for the x to the power of reciprocal y button
+-#: ../src/gtk.c:804
++#: ../src/gtk.c:806
+ msgid "Raise displayed value to the power of reciprocal y [O]"
+ msgstr "Eleva o valor exibido à potência de y [O]"
+ 
+ #. Translators: The translator credits. Please translate this with your name(s).
+-#: ../src/gtk.c:1365
++#: ../src/gtk.c:1395
+ msgid "translator-credits"
+ msgstr ""
+ "Alexandre Folle de Menezes <afmenez@terra.com.br>\n"
+@@ -2161,7 +2172,7 @@
+ "Rodrigo L. M. Flores <rodrigomarquesflores@gmail.com>\n"
+ "Daniel S. Koda <danielskoda@gmail.com>"
+ 
+-#: ../src/gtk.c:1369
++#: ../src/gtk.c:1399
+ msgid ""
+ "Gcalctool is free software; you can redistribute it and/or modify\n"
+ "it under the terms of the GNU General Public License as published by\n"
+@@ -2193,60 +2204,60 @@
+ "51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, EUA"
+ 
+ #. Translators: Program name in the about dialog
+-#: ../src/gtk.c:1385
++#: ../src/gtk.c:1415
+ msgid "Gcalctool"
+ msgstr "Gcalctool"
+ 
+ #. Translators: Copyright notice in the about dialog
+-#: ../src/gtk.c:1388
++#: ../src/gtk.c:1418
+ msgid "© 1986-2008 The Gcalctool authors"
+ msgstr "© 1986-2008 Autores do Gcalctool"
+ 
+ #. Translators: Short description in the about dialog
+-#: ../src/gtk.c:1391
++#: ../src/gtk.c:1421
+ msgid "Calculator with financial and scientific modes."
+ msgstr "Calculadora com modos financeiro e científico."
+ 
+-#: ../src/gtk.c:1549
++#: ../src/gtk.c:1579
+ msgid "Unable to open help file"
+ msgstr "Não foi possível abrir o arquivo de ajuda"
+ 
+ #. Translators: R is the short form of register used inter alia in popup menus
+-#: ../src/gtk.c:1956
++#: ../src/gtk.c:1990
+ msgid "R"
+ msgstr "R"
+ 
+ #. FIXME: WTF?
+-#: ../src/gtk.c:2319
++#: ../src/gtk.c:2371
+ msgid "Paste"
+ msgstr "Colar"
+ 
+ #. Translators: Edit Constants Dialog: Constant number column title
+ #. Translators: Edit Functions Dialog: Function number column title
+-#: ../src/gtk.c:2679 ../src/gtk.c:2696
++#: ../src/gtk.c:2739 ../src/gtk.c:2756
+ msgid "No."
+ msgstr "Nº"
+ 
+ #. Translators: Edit Constants Dialog: Constant value column title
+ #. Translators: Edit Functions Dialog: Function value column title
+-#: ../src/gtk.c:2681 ../src/gtk.c:2699
++#: ../src/gtk.c:2741 ../src/gtk.c:2759
+ msgid "Value"
+ msgstr "Valor"
+ 
+ #. Translators: Edit Constants Dialog: Constant description column title
+ #. Translators: Edit Functions Dialog: Function description column title
+-#: ../src/gtk.c:2683 ../src/gtk.c:2702
++#: ../src/gtk.c:2743 ../src/gtk.c:2762
+ msgid "Description"
+ msgstr "Descrição"
+ 
+ #. Set default accuracy menu item
+ #. Translators: Accuracy Popup: Menu item to reset the accuracy to the default value. %d is replaced with the default value.
+-#: ../src/gtk.c:2826
++#: ../src/gtk.c:2886
+ #, c-format
+ msgid "Reset to _Default (%d)"
+ msgstr "Restaurar _Padrão (%d)"
+ 
+-#: ../src/mp.c:1467
++#: ../src/mp.c:1469
+ msgid "Negative X and non-integer Y not supported"
+ msgstr "Não X negativos e Y não-inteiros não são suportados"
+ 
+@@ -2355,15 +2366,6 @@
+ #~ msgid "32-bit unsigned integer value of display ([)"
+ #~ msgstr "Valor inteiro de 32 bits sem sinal do display ([)"
+ 
+-#~ msgid "_Contents"
+-#~ msgstr "_Constantes"
+-
+-#~ msgid "_Redo"
+-#~ msgstr "_Refazer"
+-
+-#~ msgid "_Undo"
+-#~ msgstr "Desfa_zer"
+-
+ #~ msgid "±"
+ #~ msgstr "±"
+ 
